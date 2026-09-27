@@ -140,6 +140,9 @@ You can run inference using **Option A (Country Sharding - Recommended)** or **O
 
 #### Option A: Country Sharded Execution (Recommended)
 
+> [!TIP]
+> **Pre-packaged Shard Kit**: If running shards on separate worker machines, download the pre-packaged bundle [`shard_kit.zip` (v1.0.0)](https://github.com/lokikun-glitch/Amazon-ML-Challenge/releases/download/v1.0.0/shard_kit.zip) from GitHub Releases. It includes the complete codebase, pinned dependencies, precomputed test caches, and frozen models ready to execute without running Phase 1.
+
 Each country shard can be executed sequentially or in parallel on separate machines. Each worker loads only that country's S2/S3 index and processes S1 entities in chunks (default `--chunk 2000`):
 
 ```bash
