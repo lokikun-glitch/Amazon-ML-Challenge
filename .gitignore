@@ -12,7 +12,8 @@ __MACOSX/
 *.log
 
 # Large data and cache directories
-data_cache/
+data_cache/*
+!data_cache/models/
 output/
 student_resource/dataset/
 
