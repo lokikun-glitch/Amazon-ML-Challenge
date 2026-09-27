@@ -1,0 +1,86 @@
+{
+  "D1_lean_name_mid_addr": {
+    "n_true_positive_edges": 172965,
+    "n_true_positive_edges_retained": 152950,
+    "blocking_recall": 0.8843,
+    "avg_candidates": 555.5,
+    "median_candidates": 445.0,
+    "p95_candidates": 1486.0,
+    "p99_candidates": 2033.010000000002,
+    "max_candidates": 3727,
+    "total_candidate_pairs_in_sample": 27775070,
+    "reduction_ratio": 0.999946,
+    "runtime_sec": 96.88,
+    "rss_mb_at_measurement": 5576.0,
+    "projected_test_pairs_at_1_732_544_test_s1": 962430618,
+    "config": {
+      "b3_maxdf": 500,
+      "b5_maxdf": 1000,
+      "b3_k": 4,
+      "b5_k": 6
+    }
+  },
+  "D2_mid_name_lean_addr": {
+    "n_true_positive_edges": 172965,
+    "n_true_positive_edges_retained": 146566,
+    "blocking_recall": 0.8474,
+    "avg_candidates": 337.63,
+    "median_candidates": 250.0,
+    "p95_candidates": 982.0,
+    "p99_candidates": 1376.0,
+    "max_candidates": 2555,
+    "total_candidate_pairs_in_sample": 16881634,
+    "reduction_ratio": 0.999967,
+    "runtime_sec": 34.25,
+    "rss_mb_at_measurement": 5746.0,
+    "projected_test_pairs_at_1_732_544_test_s1": 584963474,
+    "config": {
+      "b3_maxdf": 1000,
+      "b5_maxdf": 500,
+      "b3_k": 4,
+      "b5_k": 4
+    }
+  },
+  "D3_lean_name_high_addr": {
+    "n_true_positive_edges": 172965,
+    "n_true_positive_edges_retained": 159507,
+    "blocking_recall": 0.9222,
+    "avg_candidates": 1206.75,
+    "median_candidates": 996.0,
+    "p95_candidates": 3147.0,
+    "p99_candidates": 4219.030000000006,
+    "max_candidates": 8901,
+    "total_candidate_pairs_in_sample": 60337736,
+    "reduction_ratio": 0.999883,
+    "runtime_sec": 20.74,
+    "rss_mb_at_measurement": 6419.0,
+    "projected_test_pairs_at_1_732_544_test_s1": 2090755650,
+    "config": {
+      "b3_maxdf": 500,
+      "b5_maxdf": 2000,
+      "b3_k": 4,
+      "b5_k": 6
+    }
+  },
+  "D4_high_name_lean_addr": {
+    "n_true_positive_edges": 172965,
+    "n_true_positive_edges_retained": 149160,
+    "blocking_recall": 0.8624,
+    "avg_candidates": 770.17,
+    "median_candidates": 425.0,
+    "p95_candidates": 2279.0,
+    "p99_candidates": 3266.010000000002,
+    "max_candidates": 5865,
+    "total_candidate_pairs_in_sample": 38508494,
+    "reduction_ratio": 0.999925,
+    "runtime_sec": 15.04,
+    "rss_mb_at_measurement": 5949.0,
+    "projected_test_pairs_at_1_732_544_test_s1": 1334353205,
+    "config": {
+      "b3_maxdf": 2000,
+      "b5_maxdf": 500,
+      "b3_k": 4,
+      "b5_k": 4
+    }
+  }
+}

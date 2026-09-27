@@ -1,0 +1,22 @@
+{
+  "rows": 12027604,
+  "seconds": 96.3,
+  "peak_rss_mb_parent": 4014,
+  "file_mb": 662.0,
+  "means": {
+    "num_hn_head_equal": 0.1808,
+    "num_hn_full_equal": 0.154,
+    "num_compound_equal": 0.0003,
+    "num_unit_equal": 0.0017,
+    "num_postal_equal": 0.0,
+    "num_token_jaccard": 0.1785,
+    "num_token_overlap": 0.297,
+    "num_hn_head_mismatch": 0.5792,
+    "num_compound_mismatch": 0.0266,
+    "num_unit_mismatch": 0.0118,
+    "num_postal_mismatch": 0.0002,
+    "num_token_contradiction": 0.6802,
+    "num_token_symdiff": 2.1266,
+    "num_strongname_contra": 0.0236
+  }
+}

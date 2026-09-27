@@ -1,0 +1,209 @@
+{
+  "D1_lean_name_mid_addr": {
+    "n_s1_total": 50000,
+    "n_s1_singleton": 2707,
+    "n_s1_matched": 47293,
+    "overall_edge_recall": 0.8843,
+    "pct_s1_all_matches_retained": 75.521,
+    "n_s1_all_matches_retained": 35716,
+    "pct_s1_at_least_one_retained": 97.08,
+    "n_s1_at_least_one_retained": 45912,
+    "n_s1_zero_retained": 1381,
+    "n_positive_edges_total": 172965,
+    "n_positive_edges_missed": 20015,
+    "n_s1_affected_by_a_miss": 11577,
+    "missed_per_affected_s1": {
+      "mean": 1.729,
+      "median": 1.0,
+      "p95": 4.0
+    },
+    "recall_by_match_count_bucket": {
+      "1": {
+        "n_s1": 2707,
+        "edge_recall": 0.8814,
+        "pct_all_retained": 88.14
+      },
+      "2-3": {
+        "n_s1": 20649,
+        "edge_recall": 0.8834,
+        "pct_all_retained": 78.83
+      },
+      "4-5": {
+        "n_s1": 18291,
+        "edge_recall": 0.8856,
+        "pct_all_retained": 72.51
+      },
+      "6+": {
+        "n_s1": 5646,
+        "edge_recall": 0.8828,
+        "pct_all_retained": 67.11
+      }
+    },
+    "recall_by_country": {
+      "India": {
+        "n_s1": 19188,
+        "edge_recall": 0.8754,
+        "pct_all_retained": 74.3
+      },
+      "US": {
+        "n_s1": 28105,
+        "edge_recall": 0.8904,
+        "pct_all_retained": 76.36
+      }
+    },
+    "candidate_count_for_s1_with_missed_matches": {
+      "mean": 326.4,
+      "median": 146.0,
+      "p95": 1126.0
+    },
+    "candidate_count_for_s1_no_missed_matches": {
+      "mean": 630.1,
+      "median": 535.0,
+      "p95": 1554.0
+    },
+    "singleton_candidate_count": {
+      "mean": 550.89,
+      "median": 451.0,
+      "p95": 1441.8999999999987,
+      "pct_with_zero_candidates": 2.44
+    }
+  },
+  "D3_lean_name_high_addr": {
+    "n_s1_total": 50000,
+    "n_s1_singleton": 2707,
+    "n_s1_matched": 47293,
+    "overall_edge_recall": 0.9222,
+    "pct_s1_all_matches_retained": 82.118,
+    "n_s1_all_matches_retained": 38836,
+    "pct_s1_at_least_one_retained": 98.357,
+    "n_s1_at_least_one_retained": 46516,
+    "n_s1_zero_retained": 777,
+    "n_positive_edges_total": 172965,
+    "n_positive_edges_missed": 13458,
+    "n_s1_affected_by_a_miss": 8457,
+    "missed_per_affected_s1": {
+      "mean": 1.591,
+      "median": 1.0,
+      "p95": 4.0
+    },
+    "recall_by_match_count_bucket": {
+      "1": {
+        "n_s1": 2707,
+        "edge_recall": 0.9257,
+        "pct_all_retained": 92.57
+      },
+      "2-3": {
+        "n_s1": 20649,
+        "edge_recall": 0.9205,
+        "pct_all_retained": 84.7
+      },
+      "4-5": {
+        "n_s1": 18291,
+        "edge_recall": 0.9233,
+        "pct_all_retained": 79.8
+      },
+      "6+": {
+        "n_s1": 5646,
+        "edge_recall": 0.9219,
+        "pct_all_retained": 75.15
+      }
+    },
+    "recall_by_country": {
+      "India": {
+        "n_s1": 19188,
+        "edge_recall": 0.9073,
+        "pct_all_retained": 79.57
+      },
+      "US": {
+        "n_s1": 28105,
+        "edge_recall": 0.9323,
+        "pct_all_retained": 83.86
+      }
+    },
+    "candidate_count_for_s1_with_missed_matches": {
+      "mean": 775.9,
+      "median": 423.0,
+      "p95": 2621.5999999999995
+    },
+    "candidate_count_for_s1_no_missed_matches": {
+      "mean": 1301.3,
+      "median": 1123.0,
+      "p95": 3228.25
+    },
+    "singleton_candidate_count": {
+      "mean": 1196.88,
+      "median": 957.0,
+      "p95": 3087.7999999999993,
+      "pct_with_zero_candidates": 1.11
+    }
+  },
+  "C_wider": {
+    "n_s1_total": 50000,
+    "n_s1_singleton": 2707,
+    "n_s1_matched": 47293,
+    "overall_edge_recall": 0.9629,
+    "pct_s1_all_matches_retained": 90.538,
+    "n_s1_all_matches_retained": 42818,
+    "pct_s1_at_least_one_retained": 99.298,
+    "n_s1_at_least_one_retained": 46961,
+    "n_s1_zero_retained": 332,
+    "n_positive_edges_total": 172965,
+    "n_positive_edges_missed": 6417,
+    "n_s1_affected_by_a_miss": 4475,
+    "missed_per_affected_s1": {
+      "mean": 1.434,
+      "median": 1.0,
+      "p95": 3.0
+    },
+    "recall_by_match_count_bucket": {
+      "1": {
+        "n_s1": 2707,
+        "edge_recall": 0.9597,
+        "pct_all_retained": 95.97
+      },
+      "2-3": {
+        "n_s1": 20649,
+        "edge_recall": 0.9613,
+        "pct_all_retained": 92.07
+      },
+      "4-5": {
+        "n_s1": 18291,
+        "edge_recall": 0.9633,
+        "pct_all_retained": 89.29
+      },
+      "6+": {
+        "n_s1": 5646,
+        "edge_recall": 0.9646,
+        "pct_all_retained": 86.38
+      }
+    },
+    "recall_by_country": {
+      "India": {
+        "n_s1": 19188,
+        "edge_recall": 0.9468,
+        "pct_all_retained": 87.4
+      },
+      "US": {
+        "n_s1": 28105,
+        "edge_recall": 0.9739,
+        "pct_all_retained": 92.68
+      }
+    },
+    "candidate_count_for_s1_with_missed_matches": {
+      "mean": 1980.9,
+      "median": 1607.0,
+      "p95": 5436.300000000002
+    },
+    "candidate_count_for_s1_no_missed_matches": {
+      "mean": 3302.9,
+      "median": 3021.0,
+      "p95": 7171.0
+    },
+    "singleton_candidate_count": {
+      "mean": 3220.27,
+      "median": 2929.0,
+      "p95": 7120.499999999999,
+      "pct_with_zero_candidates": 0.04
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "n_cases": 310,
+  "primary_category": {
+    "near_duplicate_number_changed": {
+      "n": 282,
+      "pct": 91.0
+    },
+    "shared_address": {
+      "n": 13,
+      "pct": 4.2
+    },
+    "near_duplicate_name_token_numbers_not_contradicted": {
+      "n": 10,
+      "pct": 3.2
+    },
+    "possible_gt_omission": {
+      "n": 3,
+      "pct": 1.0
+    },
+    "other_same_name_cand_address_missing": {
+      "n": 2,
+      "pct": 0.6
+    }
+  },
+  "secondary_flags": {
+    "flag_common_name": {
+      "n": 40,
+      "pct": 12.9
+    },
+    "flag_common_address": {
+      "n": 0,
+      "pct": 0.0
+    },
+    "flag_nonlatin_cand_name": {
+      "n": 3,
+      "pct": 1.0
+    },
+    "flag_name_adds_decoy_token": {
+      "n": 212,
+      "pct": 68.4
+    },
+    "flag_gt_claimed_by_other_s1": {
+      "n": 13,
+      "pct": 4.2
+    }
+  },
+  "by_z": {
+    "z>=7": {
+      "near_duplicate_number_changed": 282,
+      "shared_address": 13,
+      "near_duplicate_name_token_numbers_not_contradicted": 10,
+      "possible_gt_omission": 3,
+      "other_same_name_cand_address_missing": 2
+    },
+    "z>=9": {
+      "near_duplicate_number_changed": 182,
+      "shared_address": 10,
+      "near_duplicate_name_token_numbers_not_contradicted": 8,
+      "possible_gt_omission": 3
+    },
+    "z>=11": {
+      "near_duplicate_number_changed": 99,
+      "near_duplicate_name_token_numbers_not_contradicted": 6,
+      "shared_address": 6,
+      "possible_gt_omission": 2
+    }
+  },
+  "by_country": {
+    "India": {
+      "near_duplicate_name_token_numbers_not_contradicted": 9,
+      "near_duplicate_number_changed": 106,
+      "other_same_name_cand_address_missing": 0,
+      "possible_gt_omission": 2,
+      "shared_address": 3
+    },
+    "US": {
+      "near_duplicate_name_token_numbers_not_contradicted": 1,
+      "near_duplicate_number_changed": 176,
+      "other_same_name_cand_address_missing": 2,
+      "possible_gt_omission": 1,
+      "shared_address": 10
+    }
+  },
+  "not_observed": {
+    "transliteration_collision": "0 as primary cause: of the 3 non-Latin candidate names, 2 (Gujarati/Hindi) scored high on a shared address and 1 (mixed Tamil/Latin) is a number-changed decoy",
+    "address_number_collision": "0: no case where an equal house number on a DIFFERENT street drove the score",
+    "blocking_artifact": "0: every case was retrieved by a name-token (b3) and/or address-token (b5) channel and scores high on genuine name+address token overlap",
+    "generic_common_name": "not a primary cause: see flag_common_name; names in C are RARER than in A_acc"
+  }
+}

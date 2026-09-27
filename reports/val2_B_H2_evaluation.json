@@ -1,0 +1,103 @@
+{
+  "integrity_checks": {
+    "model_fit_rows": "FIT S1 only (training-side features; TUNE excluded)",
+    "n_fit_s1_in_model": 7976,
+    "coef_max_abs_diff_vs_stored_4dp": 0.0,
+    "original_val_z_max_abs_diff_vs_stored": 0.0,
+    "val2_overlap_with_fit": 0,
+    "val2_overlap_with_tune": 0,
+    "val2_overlap_with_val": 0,
+    "val2_overlap_with_model_fit_rows": 0,
+    "val2_n_s1": 10000,
+    "val2_n_singleton": 579,
+    "val2_countries": {
+      "US": 5992,
+      "India": 4008
+    },
+    "thresholds_selected_on_val2": "none (8.3 from TUNE; H2 t_low=3.0 from TUNE)"
+  },
+  "V2-A_frozen_B": {
+    "macro_f05": 0.7952,
+    "macro_precision": 0.8948,
+    "macro_recall": 0.7456,
+    "singleton_fp_pct": 38.51,
+    "matched_zero_pred_pct": 5.13,
+    "multi_match_recall": 0.732,
+    "avg_pred_per_s1": 2.845,
+    "duplicate_claims": 11,
+    "s1_zero_pred": 839,
+    "s1_one_pred": 1547,
+    "s1_multi_pred": 7614,
+    "f05_US": 0.8212,
+    "f05_India": 0.7562,
+    "f05_France": null
+  },
+  "V2-B_B_plus_H2": {
+    "macro_f05": 0.8009,
+    "macro_precision": 0.8919,
+    "macro_recall": 0.7504,
+    "singleton_fp_pct": 41.62,
+    "matched_zero_pred_pct": 3.99,
+    "multi_match_recall": 0.7351,
+    "avg_pred_per_s1": 2.858,
+    "duplicate_claims": 11,
+    "s1_zero_pred": 714,
+    "s1_one_pred": 1672,
+    "s1_multi_pred": 7614,
+    "f05_US": 0.8266,
+    "f05_India": 0.7624,
+    "f05_France": null
+  },
+  "delta_H2_minus_B": {
+    "macro_f05": 0.0057,
+    "macro_precision": -0.0029,
+    "macro_recall": 0.0048,
+    "singleton_fp_pct": 3.11,
+    "matched_zero_pred_pct": -1.14,
+    "multi_match_recall": 0.0031,
+    "avg_pred_per_s1": 0.013,
+    "duplicate_claims": 0,
+    "s1_zero_pred": -125,
+    "s1_one_pred": 125,
+    "s1_multi_pred": 0,
+    "f05_US": 0.0054,
+    "f05_India": 0.0062
+  },
+  "bootstrap_H2_minus_B": {
+    "delta": 0.0057,
+    "ci95": [
+      0.0039,
+      0.0074
+    ],
+    "p_delta_le_0": 0.0,
+    "US": {
+      "delta": 0.0053,
+      "ci95": [
+        0.0032,
+        0.0075
+      ],
+      "p_delta_le_0": 0.0
+    },
+    "India": {
+      "delta": 0.0062,
+      "ci95": [
+        0.0035,
+        0.0091
+      ],
+      "p_delta_le_0": 0.0
+    }
+  },
+  "supplementary_B_minus_A_on_val2": {
+    "delta": 0.0357,
+    "ci95": [
+      0.0323,
+      0.0391
+    ],
+    "p_delta_le_0": 0.0
+  },
+  "fixed_params": {
+    "threshold_z": 8.3,
+    "h2_t_low": 3.0,
+    "h2_condition": "top candidate only, for S1 with no z>=8.3; num_hn_head_equal==1 & num_hn_head_mismatch==0 & num_compound_mismatch==0 & num_token_contradiction==0"
+  }
+}

@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and temporary directories
+.pytest_cache/
+.cache/
+.DS_Store
+__MACOSX/
+.claude/
+*.log
+
+# Large data and cache directories
+data_cache/
+output/
+student_resource/dataset/
+
+# Binary data files
+*.parquet
+
+# Virtual environments
+.venv/
+venv/
+env/

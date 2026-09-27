@@ -1,0 +1,10 @@
+{
+  "total_edges": 7638365,
+  "agree": 7638365,
+  "disagree": 0,
+  "agree_pct": 100.0,
+  "missing_s1_lookup": 0,
+  "missing_match_lookup": 0,
+  "mismatch_country_pairs": {},
+  "disagree_examples": []
+}

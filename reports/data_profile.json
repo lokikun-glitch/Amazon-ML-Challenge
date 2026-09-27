@@ -1,0 +1,1892 @@
+{
+  "generated_by": "profile_data.py",
+  "sample_n_for_token_stats": 500000,
+  "train_source1": {
+    "label": "train_source1",
+    "path": "student_resource/dataset\\train\\train_source1.tsv",
+    "n_records": 2206821,
+    "n_unique_entity_id": 2206821,
+    "load_time_sec": 5.01,
+    "fields": {
+      "business_name": {
+        "field": "business_name",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 402407,
+        "unique_pct_of_nonmissing": 80.481,
+        "duplicate_nonmissing": 97593,
+        "char_len_mean": 24.02,
+        "char_len_median": 24.0,
+        "char_len_p95": 37.0,
+        "char_len_max": 105,
+        "token_count_mean": 3.57,
+        "token_count_median": 4.0
+      },
+      "business_address": {
+        "field": "business_address",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 493641,
+        "unique_pct_of_nonmissing": 98.728,
+        "duplicate_nonmissing": 6359,
+        "char_len_mean": 52.04,
+        "char_len_median": 41.0,
+        "char_len_p95": 103.0,
+        "char_len_max": 256,
+        "token_count_mean": 8.5,
+        "token_count_median": 7.0
+      },
+      "country": {
+        "field": "country",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2,
+        "unique_pct_of_nonmissing": 0.0,
+        "duplicate_nonmissing": 499998,
+        "char_len_mean": 3.2,
+        "char_len_median": 2.0,
+        "char_len_p95": 5.0,
+        "char_len_max": 5,
+        "token_count_mean": 1.0,
+        "token_count_median": 1.0
+      }
+    },
+    "country_distribution": {
+      "US": 1323633,
+      "India": 883188
+    },
+    "country_pct": {
+      "US": 59.979,
+      "India": 40.021
+    },
+    "top_name_tokens": [
+      [
+        "limited",
+        117965
+      ],
+      [
+        "private",
+        97775
+      ],
+      [
+        "llc",
+        80746
+      ],
+      [
+        "inc",
+        54141
+      ],
+      [
+        "ltd",
+        33726
+      ],
+      [
+        "pvt",
+        27581
+      ],
+      [
+        "india",
+        13543
+      ],
+      [
+        "and",
+        12983
+      ],
+      [
+        "s",
+        12546
+      ],
+      [
+        "c",
+        12216
+      ],
+      [
+        "care",
+        11997
+      ],
+      [
+        "l",
+        11257
+      ],
+      [
+        "of",
+        10014
+      ],
+      [
+        "associates",
+        9646
+      ],
+      [
+        "group",
+        9268
+      ],
+      [
+        "llp",
+        8985
+      ],
+      [
+        "partners",
+        8080
+      ],
+      [
+        "center",
+        7998
+      ],
+      [
+        "corp",
+        7793
+      ],
+      [
+        "services",
+        6999
+      ],
+      [
+        "p",
+        6535
+      ],
+      [
+        "clinic",
+        6452
+      ],
+      [
+        "health",
+        6444
+      ],
+      [
+        "d",
+        6341
+      ],
+      [
+        "pc",
+        6233
+      ],
+      [
+        "co",
+        6173
+      ],
+      [
+        "solutions",
+        5906
+      ],
+      [
+        "global",
+        5790
+      ],
+      [
+        "trading",
+        5161
+      ],
+      [
+        "international",
+        4700
+      ]
+    ],
+    "top_address_tokens": [
+      [
+        "road",
+        105811
+      ],
+      [
+        "no",
+        100183
+      ],
+      [
+        "delhi",
+        72682
+      ],
+      [
+        "street",
+        70119
+      ],
+      [
+        "drive",
+        50579
+      ],
+      [
+        "unit",
+        47098
+      ],
+      [
+        "maharashtra",
+        43335
+      ],
+      [
+        "avenue",
+        43050
+      ],
+      [
+        "nagar",
+        37704
+      ],
+      [
+        "floor",
+        36820
+      ],
+      [
+        "city",
+        33867
+      ],
+      [
+        "1",
+        32101
+      ],
+      [
+        "tx",
+        30509
+      ],
+      [
+        "west",
+        30341
+      ],
+      [
+        "mumbai",
+        29106
+      ],
+      [
+        "pradesh",
+        26191
+      ],
+      [
+        "new",
+        26151
+      ],
+      [
+        "lane",
+        24791
+      ],
+      [
+        "c",
+        23933
+      ],
+      [
+        "ny",
+        23255
+      ],
+      [
+        "2",
+        22324
+      ],
+      [
+        "a",
+        21866
+      ],
+      [
+        "nc",
+        21564
+      ],
+      [
+        "b",
+        20306
+      ],
+      [
+        "plot",
+        19735
+      ],
+      [
+        "oh",
+        19174
+      ],
+      [
+        "bangalore",
+        19060
+      ],
+      [
+        "o",
+        17280
+      ],
+      [
+        "il",
+        17236
+      ],
+      [
+        "uttar",
+        17091
+      ]
+    ],
+    "address_has_any_numeric_token_pct": 94.33,
+    "address_has_5_6_digit_code_pct": 6.7
+  },
+  "train_source2": {
+    "label": "train_source2",
+    "path": "student_resource/dataset\\train\\train_source2.tsv",
+    "n_records": 5034616,
+    "n_unique_entity_id": 5034616,
+    "load_time_sec": 13.9,
+    "fields": {
+      "business_name": {
+        "field": "business_name",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 479424,
+        "unique_pct_of_nonmissing": 95.885,
+        "duplicate_nonmissing": 20576,
+        "char_len_mean": 25.11,
+        "char_len_median": 25.0,
+        "char_len_p95": 40.0,
+        "char_len_max": 95,
+        "token_count_mean": 3.29,
+        "token_count_median": 3.0
+      },
+      "business_address": {
+        "field": "business_address",
+        "n": 500000,
+        "missing": 16854,
+        "missing_pct": 3.371,
+        "unique": 476449,
+        "unique_pct_of_nonmissing": 98.614,
+        "duplicate_nonmissing": 6697,
+        "char_len_mean": 47.88,
+        "char_len_median": 37.0,
+        "char_len_p95": 97.0,
+        "char_len_max": 219,
+        "token_count_mean": 7.97,
+        "token_count_median": 6.0
+      },
+      "country": {
+        "field": "country",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2,
+        "unique_pct_of_nonmissing": 0.0,
+        "duplicate_nonmissing": 499998,
+        "char_len_mean": 3.21,
+        "char_len_median": 2.0,
+        "char_len_p95": 5.0,
+        "char_len_max": 5,
+        "token_count_mean": 1.0,
+        "token_count_median": 1.0
+      }
+    },
+    "country_distribution": {
+      "US": 3016817,
+      "India": 2017799
+    },
+    "country_pct": {
+      "US": 59.921,
+      "India": 40.079
+    },
+    "top_name_tokens": [
+      [
+        "private",
+        53159
+      ],
+      [
+        "limited",
+        52890
+      ],
+      [
+        "llc",
+        52468
+      ],
+      [
+        "inc",
+        40277
+      ],
+      [
+        "ltd",
+        40091
+      ],
+      [
+        "l",
+        19960
+      ],
+      [
+        "com",
+        19790
+      ],
+      [
+        "center",
+        19517
+      ],
+      [
+        "pvt",
+        19182
+      ],
+      [
+        "s",
+        15428
+      ],
+      [
+        "partners",
+        15070
+      ],
+      [
+        "c",
+        14779
+      ],
+      [
+        "services",
+        14621
+      ],
+      [
+        "corp",
+        14257
+      ],
+      [
+        "group",
+        13976
+      ],
+      [
+        "co",
+        13972
+      ],
+      [
+        "and",
+        12010
+      ],
+      [
+        "india",
+        11250
+      ],
+      [
+        "holdings",
+        9710
+      ],
+      [
+        "care",
+        8925
+      ],
+      [
+        "of",
+        8838
+      ],
+      [
+        "associates",
+        7382
+      ],
+      [
+        "p",
+        6920
+      ],
+      [
+        "llp",
+        6360
+      ],
+      [
+        "corporation",
+        6212
+      ],
+      [
+        "d",
+        6023
+      ],
+      [
+        "m",
+        5919
+      ],
+      [
+        "service",
+        5602
+      ],
+      [
+        "health",
+        5183
+      ],
+      [
+        "industries",
+        4844
+      ]
+    ],
+    "top_address_tokens": [
+      [
+        "no",
+        111646
+      ],
+      [
+        "road",
+        67731
+      ],
+      [
+        "delhi",
+        49038
+      ],
+      [
+        "street",
+        33389
+      ],
+      [
+        "st",
+        33136
+      ],
+      [
+        "rd",
+        32388
+      ],
+      [
+        "floor",
+        31817
+      ],
+      [
+        "maharashtra",
+        31739
+      ],
+      [
+        "1",
+        30553
+      ],
+      [
+        "nagar",
+        30246
+      ],
+      [
+        "city",
+        29966
+      ],
+      [
+        "tx",
+        28865
+      ],
+      [
+        "dr",
+        28541
+      ],
+      [
+        "a",
+        27574
+      ],
+      [
+        "c",
+        26295
+      ],
+      [
+        "2",
+        24122
+      ],
+      [
+        "ave",
+        22469
+      ],
+      [
+        "ny",
+        22456
+      ],
+      [
+        "new",
+        21932
+      ],
+      [
+        "pradesh",
+        21832
+      ],
+      [
+        "drive",
+        21483
+      ],
+      [
+        "nc",
+        20596
+      ],
+      [
+        "west",
+        20394
+      ],
+      [
+        "b",
+        19387
+      ],
+      [
+        "avenue",
+        19190
+      ],
+      [
+        "h",
+        19133
+      ],
+      [
+        "mumbai",
+        18866
+      ],
+      [
+        "oh",
+        18434
+      ],
+      [
+        "plot",
+        18158
+      ],
+      [
+        "il",
+        16431
+      ]
+    ],
+    "address_has_any_numeric_token_pct": 90.57,
+    "address_has_5_6_digit_code_pct": 7.53
+  },
+  "train_source3": {
+    "label": "train_source3",
+    "path": "student_resource/dataset\\train\\train_source3.tsv",
+    "n_records": 5285603,
+    "n_unique_entity_id": 5285603,
+    "load_time_sec": 14.09,
+    "fields": {
+      "business_name": {
+        "field": "business_name",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 481188,
+        "unique_pct_of_nonmissing": 96.238,
+        "duplicate_nonmissing": 18812,
+        "char_len_mean": 25.18,
+        "char_len_median": 25.0,
+        "char_len_p95": 42.0,
+        "char_len_max": 123,
+        "token_count_mean": 3.51,
+        "token_count_median": 4.0
+      },
+      "business_address": {
+        "field": "business_address",
+        "n": 500000,
+        "missing": 16672,
+        "missing_pct": 3.334,
+        "unique": 477851,
+        "unique_pct_of_nonmissing": 98.867,
+        "duplicate_nonmissing": 5477,
+        "char_len_mean": 48.35,
+        "char_len_median": 42.0,
+        "char_len_p95": 92.0,
+        "char_len_max": 223,
+        "token_count_mean": 7.8,
+        "token_count_median": 7.0
+      },
+      "country": {
+        "field": "country",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 2,
+        "unique_pct_of_nonmissing": 0.0,
+        "duplicate_nonmissing": 499998,
+        "char_len_mean": 3.2,
+        "char_len_median": 2.0,
+        "char_len_p95": 5.0,
+        "char_len_max": 5,
+        "token_count_mean": 1.0,
+        "token_count_median": 1.0
+      }
+    },
+    "country_distribution": {
+      "US": 3170056,
+      "India": 2115547
+    },
+    "country_pct": {
+      "US": 59.975,
+      "India": 40.025
+    },
+    "top_name_tokens": [
+      [
+        "limited",
+        64055
+      ],
+      [
+        "private",
+        60858
+      ],
+      [
+        "llc",
+        54071
+      ],
+      [
+        "ltd",
+        40776
+      ],
+      [
+        "inc",
+        40562
+      ],
+      [
+        "center",
+        21032
+      ],
+      [
+        "pvt",
+        20845
+      ],
+      [
+        "com",
+        20161
+      ],
+      [
+        "l",
+        18460
+      ],
+      [
+        "services",
+        16135
+      ],
+      [
+        "s",
+        15839
+      ],
+      [
+        "partners",
+        15588
+      ],
+      [
+        "c",
+        14047
+      ],
+      [
+        "group",
+        13904
+      ],
+      [
+        "co",
+        13863
+      ],
+      [
+        "corp",
+        13172
+      ],
+      [
+        "and",
+        11603
+      ],
+      [
+        "india",
+        10923
+      ],
+      [
+        "holdings",
+        9337
+      ],
+      [
+        "care",
+        9293
+      ],
+      [
+        "of",
+        8836
+      ],
+      [
+        "a",
+        8513
+      ],
+      [
+        "d",
+        7739
+      ],
+      [
+        "associates",
+        7416
+      ],
+      [
+        "llp",
+        7231
+      ],
+      [
+        "p",
+        6701
+      ],
+      [
+        "service",
+        6107
+      ],
+      [
+        "m",
+        6086
+      ],
+      [
+        "corporation",
+        5555
+      ],
+      [
+        "enterprises",
+        5378
+      ]
+    ],
+    "top_address_tokens": [
+      [
+        "no",
+        101241
+      ],
+      [
+        "road",
+        59752
+      ],
+      [
+        "new",
+        45584
+      ],
+      [
+        "delhi",
+        42401
+      ],
+      [
+        "city",
+        33837
+      ],
+      [
+        "street",
+        33775
+      ],
+      [
+        "north",
+        31399
+      ],
+      [
+        "st",
+        31324
+      ],
+      [
+        "1",
+        31267
+      ],
+      [
+        "rd",
+        31097
+      ],
+      [
+        "mh",
+        30713
+      ],
+      [
+        "texas",
+        27751
+      ],
+      [
+        "nagar",
+        27141
+      ],
+      [
+        "dr",
+        26817
+      ],
+      [
+        "a",
+        26730
+      ],
+      [
+        "floor",
+        26562
+      ],
+      [
+        "mumbai",
+        25789
+      ],
+      [
+        "c",
+        25296
+      ],
+      [
+        "2",
+        23507
+      ],
+      [
+        "drive",
+        22847
+      ],
+      [
+        "york",
+        21695
+      ],
+      [
+        "ave",
+        21168
+      ],
+      [
+        "carolina",
+        20468
+      ],
+      [
+        "unit",
+        20214
+      ],
+      [
+        "avenue",
+        20132
+      ],
+      [
+        "dl",
+        19107
+      ],
+      [
+        "west",
+        18727
+      ],
+      [
+        "b",
+        18705
+      ],
+      [
+        "ohio",
+        17829
+      ],
+      [
+        "h",
+        17669
+      ]
+    ],
+    "address_has_any_numeric_token_pct": 90.74,
+    "address_has_5_6_digit_code_pct": 7.55
+  },
+  "test_source1": {
+    "label": "test_source1",
+    "path": "student_resource/dataset\\test\\test_source1.tsv",
+    "n_records": 1732544,
+    "n_unique_entity_id": 1732544,
+    "load_time_sec": 4.26,
+    "fields": {
+      "business_name": {
+        "field": "business_name",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 401263,
+        "unique_pct_of_nonmissing": 80.253,
+        "duplicate_nonmissing": 98737,
+        "char_len_mean": 23.85,
+        "char_len_median": 24.0,
+        "char_len_p95": 36.0,
+        "char_len_max": 92,
+        "token_count_mean": 3.54,
+        "token_count_median": 4.0
+      },
+      "business_address": {
+        "field": "business_address",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 493128,
+        "unique_pct_of_nonmissing": 98.626,
+        "duplicate_nonmissing": 6872,
+        "char_len_mean": 57.24,
+        "char_len_median": 51.0,
+        "char_len_p95": 105.0,
+        "char_len_max": 232,
+        "token_count_mean": 9.4,
+        "token_count_median": 8.0
+      },
+      "country": {
+        "field": "country",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 3,
+        "unique_pct_of_nonmissing": 0.001,
+        "duplicate_nonmissing": 499997,
+        "char_len_mean": 4.0,
+        "char_len_median": 5.0,
+        "char_len_p95": 6.0,
+        "char_len_max": 6,
+        "token_count_mean": 1.0,
+        "token_count_median": 1.0
+      }
+    },
+    "country_distribution": {
+      "India": 809986,
+      "US": 663106,
+      "France": 259452
+    },
+    "country_pct": {
+      "India": 46.751,
+      "US": 38.274,
+      "France": 14.975
+    },
+    "top_name_tokens": [
+      [
+        "limited",
+        138473
+      ],
+      [
+        "private",
+        114794
+      ],
+      [
+        "llc",
+        51520
+      ],
+      [
+        "ltd",
+        38893
+      ],
+      [
+        "inc",
+        34330
+      ],
+      [
+        "pvt",
+        32109
+      ],
+      [
+        "sarl",
+        21117
+      ],
+      [
+        "india",
+        16186
+      ],
+      [
+        "sas",
+        15064
+      ],
+      [
+        "llp",
+        10360
+      ],
+      [
+        "care",
+        9151
+      ],
+      [
+        "and",
+        8272
+      ],
+      [
+        "s",
+        8107
+      ],
+      [
+        "l",
+        8022
+      ],
+      [
+        "services",
+        7900
+      ],
+      [
+        "c",
+        7806
+      ],
+      [
+        "of",
+        7247
+      ],
+      [
+        "associates",
+        6944
+      ],
+      [
+        "group",
+        6926
+      ],
+      [
+        "club",
+        6550
+      ],
+      [
+        "solutions",
+        6419
+      ],
+      [
+        "co",
+        6164
+      ],
+      [
+        "france",
+        5973
+      ],
+      [
+        "corp",
+        5927
+      ],
+      [
+        "partners",
+        5815
+      ],
+      [
+        "trading",
+        5735
+      ],
+      [
+        "center",
+        5609
+      ],
+      [
+        "brothers",
+        5354
+      ],
+      [
+        "d",
+        5220
+      ],
+      [
+        "global",
+        5212
+      ]
+    ],
+    "top_address_tokens": [
+      [
+        "no",
+        118364
+      ],
+      [
+        "road",
+        94317
+      ],
+      [
+        "delhi",
+        84597
+      ],
+      [
+        "de",
+        75606
+      ],
+      [
+        "maharashtra",
+        51081
+      ],
+      [
+        "street",
+        48978
+      ],
+      [
+        "rue",
+        48922
+      ],
+      [
+        "nagar",
+        43925
+      ],
+      [
+        "floor",
+        42940
+      ],
+      [
+        "avenue",
+        36987
+      ],
+      [
+        "1",
+        36735
+      ],
+      [
+        "la",
+        34657
+      ],
+      [
+        "west",
+        34336
+      ],
+      [
+        "mumbai",
+        34243
+      ],
+      [
+        "drive",
+        32277
+      ],
+      [
+        "unit",
+        31372
+      ],
+      [
+        "pradesh",
+        30754
+      ],
+      [
+        "city",
+        30499
+      ],
+      [
+        "france",
+        29356
+      ],
+      [
+        "hauts",
+        29172
+      ],
+      [
+        "new",
+        28797
+      ],
+      [
+        "c",
+        27961
+      ],
+      [
+        "2",
+        26691
+      ],
+      [
+        "a",
+        25152
+      ],
+      [
+        "nouvelle",
+        24474
+      ],
+      [
+        "aquitaine",
+        24457
+      ],
+      [
+        "b",
+        23480
+      ],
+      [
+        "plot",
+        23218
+      ],
+      [
+        "bangalore",
+        22814
+      ],
+      [
+        "loire",
+        20927
+      ]
+    ],
+    "address_has_any_numeric_token_pct": 93.4,
+    "address_has_5_6_digit_code_pct": 4.37
+  },
+  "test_source2": {
+    "label": "test_source2",
+    "path": "student_resource/dataset\\test\\test_source2.tsv",
+    "n_records": 4887273,
+    "n_unique_entity_id": 4887273,
+    "load_time_sec": 13.89,
+    "fields": {
+      "business_name": {
+        "field": "business_name",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 480671,
+        "unique_pct_of_nonmissing": 96.134,
+        "duplicate_nonmissing": 19329,
+        "char_len_mean": 25.68,
+        "char_len_median": 25.0,
+        "char_len_p95": 42.0,
+        "char_len_max": 85,
+        "token_count_mean": 3.29,
+        "token_count_median": 3.0
+      },
+      "business_address": {
+        "field": "business_address",
+        "n": 500000,
+        "missing": 13256,
+        "missing_pct": 2.651,
+        "unique": 479901,
+        "unique_pct_of_nonmissing": 98.594,
+        "duplicate_nonmissing": 6843,
+        "char_len_mean": 51.83,
+        "char_len_median": 43.0,
+        "char_len_p95": 100.0,
+        "char_len_max": 268,
+        "token_count_mean": 8.63,
+        "token_count_median": 7.0
+      },
+      "country": {
+        "field": "country",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 3,
+        "unique_pct_of_nonmissing": 0.001,
+        "duplicate_nonmissing": 499997,
+        "char_len_mean": 3.99,
+        "char_len_median": 5.0,
+        "char_len_p95": 6.0,
+        "char_len_max": 6,
+        "token_count_mean": 1.0,
+        "token_count_median": 1.0
+      }
+    },
+    "country_distribution": {
+      "India": 2312565,
+      "US": 1871330,
+      "France": 703378
+    },
+    "country_pct": {
+      "India": 47.318,
+      "US": 38.29,
+      "France": 14.392
+    },
+    "top_name_tokens": [
+      [
+        "limited",
+        64828
+      ],
+      [
+        "private",
+        61672
+      ],
+      [
+        "ltd",
+        43718
+      ],
+      [
+        "llc",
+        32762
+      ],
+      [
+        "inc",
+        25449
+      ],
+      [
+        "pvt",
+        22473
+      ],
+      [
+        "s",
+        18609
+      ],
+      [
+        "l",
+        16731
+      ],
+      [
+        "com",
+        16042
+      ],
+      [
+        "group",
+        14689
+      ],
+      [
+        "center",
+        14686
+      ],
+      [
+        "sarl",
+        14302
+      ],
+      [
+        "services",
+        13765
+      ],
+      [
+        "india",
+        13679
+      ],
+      [
+        "partners",
+        13307
+      ],
+      [
+        "co",
+        13105
+      ],
+      [
+        "corp",
+        12033
+      ],
+      [
+        "holdings",
+        11335
+      ],
+      [
+        "sas",
+        10097
+      ],
+      [
+        "c",
+        9730
+      ],
+      [
+        "llp",
+        8559
+      ],
+      [
+        "d",
+        7768
+      ],
+      [
+        "and",
+        7765
+      ],
+      [
+        "industries",
+        6845
+      ],
+      [
+        "enterprises",
+        6835
+      ],
+      [
+        "france",
+        6781
+      ],
+      [
+        "care",
+        6644
+      ],
+      [
+        "of",
+        6457
+      ],
+      [
+        "m",
+        6378
+      ],
+      [
+        "ventures",
+        6289
+      ]
+    ],
+    "top_address_tokens": [
+      [
+        "no",
+        139287
+      ],
+      [
+        "road",
+        67510
+      ],
+      [
+        "delhi",
+        57819
+      ],
+      [
+        "de",
+        40628
+      ],
+      [
+        "maharashtra",
+        37951
+      ],
+      [
+        "floor",
+        37756
+      ],
+      [
+        "nagar",
+        35761
+      ],
+      [
+        "1",
+        31772
+      ],
+      [
+        "a",
+        30865
+      ],
+      [
+        "c",
+        30424
+      ],
+      [
+        "rue",
+        27460
+      ],
+      [
+        "street",
+        25673
+      ],
+      [
+        "pradesh",
+        25535
+      ],
+      [
+        "2",
+        25279
+      ],
+      [
+        "city",
+        24839
+      ],
+      [
+        "new",
+        24225
+      ],
+      [
+        "r",
+        23477
+      ],
+      [
+        "st",
+        23429
+      ],
+      [
+        "west",
+        22986
+      ],
+      [
+        "rd",
+        22955
+      ],
+      [
+        "h",
+        22901
+      ],
+      [
+        "b",
+        22649
+      ],
+      [
+        "mumbai",
+        22603
+      ],
+      [
+        "plot",
+        21080
+      ],
+      [
+        "la",
+        19393
+      ],
+      [
+        "o",
+        19340
+      ],
+      [
+        "dr",
+        18822
+      ],
+      [
+        "tx",
+        18581
+      ],
+      [
+        "avenue",
+        17809
+      ],
+      [
+        "3",
+        15878
+      ]
+    ],
+    "address_has_any_numeric_token_pct": 92.2,
+    "address_has_5_6_digit_code_pct": 5.2
+  },
+  "test_source3": {
+    "label": "test_source3",
+    "path": "student_resource/dataset\\test\\test_source3.tsv",
+    "n_records": 5082316,
+    "n_unique_entity_id": 5082316,
+    "load_time_sec": 14.1,
+    "fields": {
+      "business_name": {
+        "field": "business_name",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 483545,
+        "unique_pct_of_nonmissing": 96.709,
+        "duplicate_nonmissing": 16455,
+        "char_len_mean": 25.65,
+        "char_len_median": 25.0,
+        "char_len_p95": 42.0,
+        "char_len_max": 89,
+        "token_count_mean": 3.54,
+        "token_count_median": 4.0
+      },
+      "business_address": {
+        "field": "business_address",
+        "n": 500000,
+        "missing": 13311,
+        "missing_pct": 2.662,
+        "unique": 480768,
+        "unique_pct_of_nonmissing": 98.783,
+        "duplicate_nonmissing": 5921,
+        "char_len_mean": 50.09,
+        "char_len_median": 44.0,
+        "char_len_p95": 95.0,
+        "char_len_max": 232,
+        "token_count_mean": 8.3,
+        "token_count_median": 7.0
+      },
+      "country": {
+        "field": "country",
+        "n": 500000,
+        "missing": 0,
+        "missing_pct": 0.0,
+        "unique": 3,
+        "unique_pct_of_nonmissing": 0.001,
+        "duplicate_nonmissing": 499997,
+        "char_len_mean": 3.99,
+        "char_len_median": 5.0,
+        "char_len_p95": 6.0,
+        "char_len_max": 6,
+        "token_count_mean": 1.0,
+        "token_count_median": 1.0
+      }
+    },
+    "country_distribution": {
+      "India": 2405000,
+      "US": 1945701,
+      "France": 731615
+    },
+    "country_pct": {
+      "India": 47.321,
+      "US": 38.284,
+      "France": 14.395
+    },
+    "top_name_tokens": [
+      [
+        "limited",
+        78917
+      ],
+      [
+        "private",
+        72338
+      ],
+      [
+        "ltd",
+        45592
+      ],
+      [
+        "llc",
+        33703
+      ],
+      [
+        "inc",
+        25540
+      ],
+      [
+        "pvt",
+        25057
+      ],
+      [
+        "s",
+        18683
+      ],
+      [
+        "center",
+        16935
+      ],
+      [
+        "com",
+        16345
+      ],
+      [
+        "l",
+        16078
+      ],
+      [
+        "services",
+        15481
+      ],
+      [
+        "group",
+        14484
+      ],
+      [
+        "sarl",
+        14310
+      ],
+      [
+        "india",
+        13489
+      ],
+      [
+        "partners",
+        13400
+      ],
+      [
+        "co",
+        13290
+      ],
+      [
+        "holdings",
+        11267
+      ],
+      [
+        "corp",
+        11136
+      ],
+      [
+        "llp",
+        9964
+      ],
+      [
+        "sas",
+        9942
+      ],
+      [
+        "c",
+        9440
+      ],
+      [
+        "d",
+        9304
+      ],
+      [
+        "a",
+        9072
+      ],
+      [
+        "and",
+        7692
+      ],
+      [
+        "enterprises",
+        7470
+      ],
+      [
+        "industries",
+        7113
+      ],
+      [
+        "care",
+        6913
+      ],
+      [
+        "m",
+        6745
+      ],
+      [
+        "france",
+        6742
+      ],
+      [
+        "of",
+        6626
+      ]
+    ],
+    "top_address_tokens": [
+      [
+        "no",
+        127409
+      ],
+      [
+        "road",
+        56127
+      ],
+      [
+        "delhi",
+        49903
+      ],
+      [
+        "de",
+        40432
+      ],
+      [
+        "new",
+        39568
+      ],
+      [
+        "mh",
+        36503
+      ],
+      [
+        "nagar",
+        31772
+      ],
+      [
+        "1",
+        31364
+      ],
+      [
+        "floor",
+        30707
+      ],
+      [
+        "mumbai",
+        30489
+      ],
+      [
+        "c",
+        29440
+      ],
+      [
+        "city",
+        29169
+      ],
+      [
+        "a",
+        28933
+      ],
+      [
+        "rue",
+        28334
+      ],
+      [
+        "north",
+        25223
+      ],
+      [
+        "2",
+        24362
+      ],
+      [
+        "street",
+        24336
+      ],
+      [
+        "dl",
+        22853
+      ],
+      [
+        "st",
+        22429
+      ],
+      [
+        "r",
+        22051
+      ],
+      [
+        "h",
+        21681
+      ],
+      [
+        "rd",
+        21588
+      ],
+      [
+        "b",
+        21150
+      ],
+      [
+        "bangalore",
+        19748
+      ],
+      [
+        "la",
+        19270
+      ],
+      [
+        "west",
+        19123
+      ],
+      [
+        "plot",
+        18390
+      ],
+      [
+        "o",
+        18327
+      ],
+      [
+        "avenue",
+        18244
+      ],
+      [
+        "texas",
+        18110
+      ]
+    ],
+    "address_has_any_numeric_token_pct": 91.93,
+    "address_has_5_6_digit_code_pct": 5.16
+  },
+  "train_ground_truth": {
+    "n_s1_rows": 2206821,
+    "n_s1_ids_missing_from_gt_file": 0,
+    "n_singleton_s1": 123247,
+    "n_matched_s1": 2083574,
+    "singleton_pct": 5.585,
+    "matches_per_matched_s1_mean": 3.666,
+    "matches_per_matched_s1_median": 4.0,
+    "matches_per_matched_s1_p95": 6.0,
+    "matches_per_matched_s1_max": 11,
+    "total_match_edges": 7638365,
+    "s2_match_edges": 3693619,
+    "s3_match_edges": 3944746,
+    "s2_edge_pct": 48.36,
+    "s3_edge_pct": 51.64,
+    "unknown_s2_ids_referenced": 0,
+    "unknown_s3_ids_referenced": 0,
+    "self_referential_s1_in_matches": 0,
+    "match_count_histogram": {
+      "0": 123247,
+      "1": 119157,
+      "2": 375212,
+      "3": 530841,
+      "4": 484115,
+      "5": 321957,
+      "6": 164868,
+      "7": 63968,
+      "8": 18680,
+      "9": 4205,
+      "10": 534,
+      "11": 37
+    },
+    "load_time_sec": 21.02
+  }
+}

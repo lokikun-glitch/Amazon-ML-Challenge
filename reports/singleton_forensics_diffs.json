@@ -1,0 +1,171 @@
+{
+  "note": "A_acc subsampled to 8000, B to 4000 (uniform); C and D complete",
+  "num_pattern_pct": {
+    "A_acc": {
+      "numbers_equal": 67.9,
+      "numbers_differ": 10.1,
+      "numbers_cand_superset": 8.8,
+      "numbers_cand_subset": 5.6,
+      "number_dropped_by_cand": 4.0,
+      "no_numbers": 2.9,
+      "number_added_by_cand": 0.5,
+      "cand_addr_missing": 0.2
+    },
+    "B": {
+      "numbers_differ": 69.8,
+      "numbers_equal": 9.2,
+      "numbers_cand_superset": 6.2,
+      "numbers_cand_subset": 5.4,
+      "number_dropped_by_cand": 4.8,
+      "number_added_by_cand": 3.7,
+      "no_numbers": 0.8,
+      "cand_addr_missing": 0.3
+    },
+    "C": {
+      "numbers_differ": 87.1,
+      "numbers_equal": 4.5,
+      "number_added_by_cand": 3.9,
+      "numbers_cand_superset": 3.2,
+      "cand_addr_missing": 0.6,
+      "number_dropped_by_cand": 0.3,
+      "numbers_cand_subset": 0.3
+    },
+    "D": {
+      "numbers_differ": 72.7,
+      "numbers_equal": 13.3,
+      "number_added_by_cand": 8.0,
+      "numbers_cand_superset": 4.3,
+      "numbers_cand_subset": 1.3,
+      "cand_addr_missing": 0.3
+    }
+  },
+  "name_pattern_pct": {
+    "A_acc": {
+      "core_equal": 57.7,
+      "token_substituted": 30.0,
+      "cand_adds_token": 8.0,
+      "cand_drops_token": 4.3
+    },
+    "B": {
+      "token_substituted": 96.7,
+      "core_equal": 2.9,
+      "cand_adds_token": 0.2,
+      "cand_drops_token": 0.2
+    },
+    "C": {
+      "cand_adds_token": 48.1,
+      "core_equal": 31.6,
+      "token_substituted": 20.3
+    },
+    "D": {
+      "cand_adds_token": 43.0,
+      "core_equal": 33.7,
+      "token_substituted": 23.3
+    }
+  },
+  "joint_pct": {
+    "A_acc": {
+      "number_changed_or_added": 16.2,
+      "name_adds_or_substitutes_token": 38.0,
+      "both": 4.6
+    },
+    "B": {
+      "number_changed_or_added": 78.8,
+      "name_adds_or_substitutes_token": 96.9,
+      "both": 76.1
+    },
+    "C": {
+      "number_changed_or_added": 91.3,
+      "name_adds_or_substitutes_token": 68.4,
+      "both": 60.6
+    },
+    "D": {
+      "number_changed_or_added": 82.0,
+      "name_adds_or_substitutes_token": 66.3,
+      "both": 49.7
+    }
+  },
+  "top_added_name_tokens_per100pairs": {
+    "A_acc": {
+      "com": 2.9,
+      "center": 2.5,
+      "\u0932\u093f\u092e\u093f\u091f\u0947\u0921": 2.4,
+      "\u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f": 2.0,
+      "services": 1.7,
+      "partners": 0.9,
+      "service": 0.8,
+      "dr": 0.6,
+      "as": 0.5,
+      "dba": 0.5,
+      "k": 0.5,
+      "formerly": 0.4,
+      "b": 0.4,
+      "d": 0.4,
+      "\u0c32\u0c3f\u0c2e\u0c3f\u0c1f\u0c46\u0c21\u0c4d": 0.4,
+      "\u0c2a\u0c4d\u0c30\u0c48\u0c35\u0c47\u0c1f\u0c4d": 0.4,
+      "\u00ednc": 0.3,
+      "\u0ab2\u0abf\u0aae\u0abf\u0a9f\u0ac7\u0aa1": 0.3,
+      "\u092a\u094d\u0930\u093e": 0.3,
+      "\u0932\u093f": 0.3,
+      "\u0aaa\u0acd\u0ab0\u0abe\u0a87\u0ab5\u0ac7\u0a9f": 0.3,
+      "\u0cb2\u0cbf\u0cae\u0cbf\u0c9f\u0cc6\u0ca1\u0ccd": 0.3,
+      "l\u00edmited": 0.3,
+      "pr\u00edvate": 0.3,
+      "t": 0.3
+    },
+    "C": {
+      "holdings": 8.1,
+      "group": 6.1,
+      "partners": 4.2,
+      "exports": 4.2,
+      "enterprises": 3.2,
+      "infratech": 2.6,
+      "ventures": 2.6,
+      "west": 1.9,
+      "overseas": 1.9,
+      "metro": 1.6,
+      "industries": 1.3,
+      "westgate": 1.3,
+      "valley": 1.3,
+      "south": 1.3,
+      "lakeside": 1.3,
+      "summit": 1.3,
+      "coastal": 1.0,
+      "north": 1.0,
+      "greater": 1.0,
+      "east": 0.6,
+      "northside": 0.6,
+      "medicals": 0.6,
+      "services": 0.6,
+      "harbor": 0.6,
+      "pharmacy": 0.6
+    },
+    "D": {
+      "group": 5.0,
+      "holdings": 4.3,
+      "partners": 3.3,
+      "industries": 3.3,
+      "exports": 2.3,
+      "ventures": 2.3,
+      "enterprises": 2.3,
+      "infratech": 2.0,
+      "\u0932\u093f\u092e\u093f\u091f\u0947\u0921": 1.7,
+      "overseas": 1.3,
+      "central": 1.3,
+      "west": 1.3,
+      "westgate": 1.0,
+      "\u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f": 1.0,
+      "eastgate": 1.0,
+      "lakeside": 1.0,
+      "technologies": 1.0,
+      "b": 1.0,
+      "d": 1.0,
+      "midtown": 1.0,
+      "hotel": 1.0,
+      "southside": 1.0,
+      "restaurant": 1.0,
+      "digital": 0.7,
+      "\u0d2a\u0d4d\u0d30\u0d48\u0d35\u0d31\u0d4d\u0d31\u0d4d": 0.7
+    }
+  }
+}

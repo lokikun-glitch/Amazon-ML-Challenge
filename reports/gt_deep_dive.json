@@ -1,0 +1,314 @@
+{
+  "summary": {
+    "n_sampled_positive_pairs": 200000,
+    "exact_normalized_name_match_pct": 21.64,
+    "name_token_jaccard_mean": 0.6129,
+    "name_token_jaccard_ge_0.8_pct": 31.59,
+    "exact_raw_address_match_pct": 7.32,
+    "country_match_pct": 100.0,
+    "multi_mapped_s2s3_ids": 0,
+    "distinct_matched_ids": 7638365
+  },
+  "examples": [
+    {
+      "s1_id": "S1-530914154",
+      "s1_name": "Choice Next Inc",
+      "s1_addr": "5424 Olde Vintage Drive, Hilliard, OH",
+      "s1_country": "US",
+      "match_id": "S2-913569967",
+      "match_name": "Ch0ice Next",
+      "match_addr": "005424 OLDE VINTAGE DR, HILLIARD, OH",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-512840137",
+      "s1_name": "Wanamaker Concepts LLC",
+      "s1_addr": "19445 2200 Road N, Towanda, IL",
+      "s1_country": "US",
+      "match_id": "S3-56291399",
+      "match_name": "Wanamaker  Concepts - 1226569662",
+      "match_addr": "Towanda, 19445-19449 2200 Road North, Illinois, PMB 496",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-783116573",
+      "s1_name": "Blue Barbershop",
+      "s1_addr": "3809 Gaines Court, Austin, TX",
+      "s1_country": "US",
+      "match_id": "S3-938046310",
+      "match_name": "Blue-Barbershop",
+      "match_addr": "Gaines Court, Austin, Texas",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-331778582",
+      "s1_name": "Little's Pacific Bakery",
+      "s1_addr": "1424 Fm 2854, Conroe, TX",
+      "s1_country": "US",
+      "match_id": "S3-941026974",
+      "match_name": "little's pacific bakery",
+      "match_addr": "1424 Fm 2854, Conroe, Texas",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-380331874",
+      "s1_name": "Aditaksh India Private Limited",
+      "s1_addr": "Rh No.K-1 Sahyadri Hills, Bagdiya Nagar Garkheda, Aurangabad, Maharashtra",
+      "s1_country": "India",
+      "match_id": "S2-624650137",
+      "match_name": "Aditaksh India",
+      "match_addr": "RH NO.K-1 SAHYADRI HILLS, BAGDIYA NAGAR GARKHEDA, AURANGABAD, महाराष्ट्र",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-571356337",
+      "s1_name": "Om Healthcare Private Limited",
+      "s1_addr": "926/ P, Ii Floor, Capital Chits Plaza Kothamangalam, Kothamangalam, Ernakulam, Kerala",
+      "s1_country": "India",
+      "match_id": "S3-111958474",
+      "match_name": "Om Healthcare Private",
+      "match_addr": "Door No 828 926/ P, KL, Kothamangalam, Ernakulam, Ii Floor, Capital Chits Plaza Kothamangalam",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-309668047",
+      "s1_name": "Bombay Consulting Private Limited",
+      "s1_addr": "#306 Vmaks Heights, Sampige Nagar, Electronic City, Bangalore, Karnataka",
+      "s1_country": "India",
+      "match_id": "S3-578788341",
+      "match_name": "... Bombay Consulting Private",
+      "match_addr": "No 306 Vmaks Heights, Bangalore, ಕರ್ನಾಟಕ",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-655549786",
+      "s1_name": "Pediatric Dentistry Care Inc",
+      "s1_addr": "4302 Center Street, Unit #Y303, Tacoma, WA",
+      "s1_country": "US",
+      "match_id": "S3-148356268",
+      "match_name": "Pediatric Care Dentistry Inc",
+      "match_addr": "4302. Center Street, Unit #Y303, Tacoma, Washington",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-293888032",
+      "s1_name": "BPL Voya",
+      "s1_addr": "Unit STE F, Vacaville, CA, 795 Alamo Drive",
+      "s1_country": "US",
+      "match_id": "S3-288912398",
+      "match_name": "BPL  Voya Inc (ID: 28714)",
+      "match_addr": "795 Alamo Drive, Unit STE F, Vacaville, California",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-10054060",
+      "s1_name": "Dream Technology Private Limited",
+      "s1_addr": "D 51/118 A Purana Dariba, Varanasi, Uttar Pradesh",
+      "s1_country": "India",
+      "match_id": "S2-839762051",
+      "match_name": "ड्रीम टेक्नोलॉजी प्राइवेट लिमिटेड",
+      "match_addr": "D 51/118 A PURANA DARIBA, VARANASI, SONIA ROAD VARANASI, Uttar Pradesh",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-13893165",
+      "s1_name": "Better Prairie Cbre P.C.",
+      "s1_addr": "4196 Black Lick Road, Black Lick, PA",
+      "s1_country": "US",
+      "match_id": "S3-805138139",
+      "match_name": "Better Prairie",
+      "match_addr": "Black Lick Rd, Black Lick, Pennsylvania",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-496552340",
+      "s1_name": "Snyder Star Drive Inc",
+      "s1_addr": "104 Faith Lane, Middletown, DE",
+      "s1_country": "US",
+      "match_id": "S2-302222325",
+      "match_name": "SNYDER STAR DRIVE [(INC)]",
+      "match_addr": "0104 FAITH LN, MIDDLETOWN, DE",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-394861046",
+      "s1_name": "Kym Freeman, M.D.",
+      "s1_addr": "Norfolk City, VA, 6250 Edward Street",
+      "s1_country": "US",
+      "match_id": "S3-282504607",
+      "match_name": "kym freeman, m.d.",
+      "match_addr": "6250 Edward Street, Norfolk City, Virginia",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-331446813",
+      "s1_name": "Ayers & Steward Preferred L.L.C.",
+      "s1_addr": "3423 Fm 762, Richmond, TX",
+      "s1_country": "US",
+      "match_id": "S2-992883766",
+      "match_name": "ayersstewardpreferred.com",
+      "match_addr": "3423  FM 762, RICHMOND, TX",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-33814812",
+      "s1_name": "Gutierrez Bay Integrated Inc.",
+      "s1_addr": "909 E Capitol Street, Washington, DC",
+      "s1_country": "US",
+      "match_id": "S3-246985964",
+      "match_name": "Gutierrez  Bay",
+      "match_addr": "909 East Capitol St, Washington, District of Columbia",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-499386424",
+      "s1_name": "Degroot & Mejia Spade Corp",
+      "s1_addr": "1540 Beech Road, Boiling Spring Lakes, NC",
+      "s1_country": "US",
+      "match_id": "S3-29465646",
+      "match_name": "Degroot",
+      "match_addr": "1540 Beech Road, Boiling Spring Lakes, NC",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-523030302",
+      "s1_name": "Sr & Brothers Limited",
+      "s1_addr": "Hooghly, West Bengal, Arambagh, C/O-Malay Kanti Konar Mouchak, Hospital More, W/N-05",
+      "s1_country": "India",
+      "match_id": "S3-697404061",
+      "match_name": "Sr & Brothers-Limited",
+      "match_addr": "WB, Hospital More, W/n-05, Hooghly, Arambagh, C/o-maaly Kanti Konar Mouchak",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-805089839",
+      "s1_name": "Strickland Harbor Atlas Inc",
+      "s1_addr": "1726 125 W, New Castle, IN",
+      "s1_country": "US",
+      "match_id": "S3-662850420",
+      "match_name": "Inc Strickland Hermhar Atlas",
+      "match_addr": "1726-1730 125 W, New Castle, Indiana",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-630404761",
+      "s1_name": "Lambdin, Murphy & Hernandez Btc LP",
+      "s1_addr": "6252 Sunset Road, Ellicottville, NY",
+      "s1_country": "US",
+      "match_id": "S2-575814743",
+      "match_name": "LAMBDIN, MURPHY + LP BTC HERNANDEZ",
+      "match_addr": "6252 SUNSET RD, ELLICOTTVILLE, NY",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-709764004",
+      "s1_name": "Curry, Norris & Hernandez P.C.",
+      "s1_addr": "Paris, KY, 203 Castle Boulevard",
+      "s1_country": "US",
+      "match_id": "S3-823761911",
+      "match_name": "Curry, Norris &",
+      "match_addr": "Kentucky, #203 Castle Boulevard, Pariis",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-448016465",
+      "s1_name": "Anna Infratech Private Limited",
+      "s1_addr": "Vill. Babhangawan, Tola- Babhangawan, Panch-Babhangama, Block-Bihariganj, Madhepura, Bihar",
+      "s1_country": "India",
+      "match_id": "S2-248518747",
+      "match_name": "Anna Infratech Limited [Services]",
+      "match_addr": "VILL. BABHANGAWAN, TOLA- BABHANGAWAN, PANCH-BABHANGAMA, BLOCK-BIHARIGANJ, MADHEPURA, Bihar",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-313495505",
+      "s1_name": "Heartland Animal Hospital Inc.",
+      "s1_addr": "4430 Chandler Highway, Tyler, TX",
+      "s1_country": "US",
+      "match_id": "S3-79415016",
+      "match_name": "HEARTLAND ANIMAL ANIMAL HOSPITAL INC.",
+      "match_addr": "443 Chandler Highway, TYER, Texas",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-630927515",
+      "s1_name": "Cancer Alliance",
+      "s1_addr": "Camdenton, 344 Grenelle Acres Road, MO",
+      "s1_country": "US",
+      "match_id": "S2-971243259",
+      "match_name": "cancer alliance",
+      "match_addr": "343 GRENELLE ACRES RD, CAMDENTON, MO",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-397358685",
+      "s1_name": "Chennai Healthcare Private Limited",
+      "s1_addr": "No 323 Main Road Thirumudivakkam, Chennai, Kancheepuram, Tamil Nadu",
+      "s1_country": "India",
+      "match_id": "S2-78415100",
+      "match_name": "Chennai Healthcare Private Private Limited",
+      "match_addr": NaN,
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-732029538",
+      "s1_name": "Classic Sachem LP",
+      "s1_addr": "808 25th Street, San Bernardino, CA",
+      "s1_country": "US",
+      "match_id": "S2-983315972",
+      "match_name": "CLASSIC-SACHEM",
+      "match_addr": "808 25TH STREET, SAN BERNARDINO, CA",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-814001538",
+      "s1_name": "Mitchell Custom Multimedia LP",
+      "s1_addr": "11831 Bird Point Trail, Tyler, TX",
+      "s1_country": "US",
+      "match_id": "S2-831908385",
+      "match_name": "MITCHELL MITCHELL CU5TOM MULTIMEDIA",
+      "match_addr": "11831-11835 BIRD POINT TRAIL, TYLER, TX",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-945750946",
+      "s1_name": "Universal Creative Management Limited",
+      "s1_addr": "C-4, Fourth Floor (Rear Portion), Shopping Center-I Paschimi Marg, Vasant Vihar, New Delhi, South West Delhi, Delhi",
+      "s1_country": "India",
+      "match_id": "S2-584720526",
+      "match_name": "Pyrakor",
+      "match_addr": "C-C-4, FOURTH FLOOR (REAR PORTION), SHOPPING CENTER-I PASCHIMI MARG, VASANT VIHAR, SOUTH WEST DELHI, NEW DELHI, दिल्ली",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-867095653",
+      "s1_name": "Kozhikode Hospitality Limited",
+      "s1_addr": "M-67A, Adani Samsara, Sector-60, Sadar Bazar, Gurgaon, Haryana",
+      "s1_country": "India",
+      "match_id": "S3-930715021",
+      "match_name": "Kozhikode Limited Service",
+      "match_addr": "Adani Samsara, Sector-60, Gurgaon, हरियाणा, M-67a",
+      "match_country": "India"
+    },
+    {
+      "s1_id": "S1-217420446",
+      "s1_name": "Highland Integrated Eureka Inc",
+      "s1_addr": "8523 Durham Court, VA, Fairfax County",
+      "s1_country": "US",
+      "match_id": "S3-973415044",
+      "match_name": "highland integrated eureka inc",
+      "match_addr": "Springfield, ##8523 Durham Ct, Virginia",
+      "match_country": "US"
+    },
+    {
+      "s1_id": "S1-554126390",
+      "s1_name": "Melessa Smart Clear Commerce",
+      "s1_addr": "3208 150, Anderson, IN",
+      "s1_country": "US",
+      "match_id": "S2-163841622",
+      "match_name": "me1essasmartclearcom",
+      "match_addr": "150, ANDERSON, IN",
+      "match_country": "US"
+    }
+  ]
+}

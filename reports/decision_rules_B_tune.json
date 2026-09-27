@@ -1,0 +1,128 @@
+{
+  "note": "TUNE = selection split; FIT is in-sample for the LR (optimistic). VAL not loaded.",
+  "frozen_B_threshold": 8.3,
+  "hypotheses": {
+    "H1": {
+      "selected_param_on_tune": 8.2,
+      "tune": {
+        "macro_f05": 0.8058,
+        "macro_precision": 0.9009,
+        "macro_recall": 0.7478,
+        "singleton_fp_rate_pct": 33.67,
+        "matched_zero_pred_pct": 4.42,
+        "multi_match_recall": 0.7355,
+        "avg_pred_per_s1": 2.949
+      },
+      "tune_delta_vs_B": {
+        "delta": 0.0003,
+        "ci95": [
+          -0.001,
+          0.0016
+        ],
+        "p_delta_le_0": 0.342
+      },
+      "fit_secondary": {
+        "macro_f05": 0.8006,
+        "macro_precision": 0.898,
+        "macro_recall": 0.7497,
+        "singleton_fp_rate_pct": 35.76,
+        "matched_zero_pred_pct": 5.0,
+        "multi_match_recall": 0.7345,
+        "avg_pred_per_s1": 2.898
+      },
+      "fit_delta_vs_B": {
+        "delta": 0.0001,
+        "ci95": [
+          -0.0005,
+          0.0007
+        ],
+        "p_delta_le_0": 0.3615
+      },
+      "tune_curve_f05": {
+        "3.0": 0.6869,
+        "7.2": 0.7973,
+        "7.3": 0.7989,
+        "7.4": 0.7991,
+        "7.5": 0.8,
+        "7.6": 0.8006,
+        "7.7": 0.802,
+        "7.8": 0.803,
+        "7.9": 0.8041,
+        "8.0": 0.805,
+        "8.1": 0.8055,
+        "8.2": 0.8058,
+        "8.3": 0.8055
+      }
+    },
+    "H2": {
+      "selected_param_on_tune": 3.0,
+      "tune": {
+        "macro_f05": 0.8115,
+        "macro_precision": 0.9008,
+        "macro_recall": 0.7477,
+        "singleton_fp_rate_pct": 35.71,
+        "matched_zero_pred_pct": 3.36,
+        "multi_match_recall": 0.7343,
+        "avg_pred_per_s1": 2.933
+      },
+      "tune_delta_vs_B": {
+        "delta": 0.006,
+        "ci95": [
+          0.0025,
+          0.0098
+        ],
+        "p_delta_le_0": 0.0
+      },
+      "fit_secondary": {
+        "macro_f05": 0.806,
+        "macro_precision": 0.8978,
+        "macro_recall": 0.75,
+        "singleton_fp_rate_pct": 38.04,
+        "matched_zero_pred_pct": 3.99,
+        "multi_match_recall": 0.733,
+        "avg_pred_per_s1": 2.885
+      },
+      "fit_delta_vs_B": {
+        "delta": 0.0055,
+        "ci95": [
+          0.0037,
+          0.0074
+        ],
+        "p_delta_le_0": 0.0
+      },
+      "tune_curve_f05": {
+        "3.0": 0.8115,
+        "3.1": 0.8115,
+        "3.2": 0.8115,
+        "3.3": 0.8115,
+        "3.4": 0.8115,
+        "3.5": 0.8115,
+        "3.6": 0.8115,
+        "3.7": 0.8115,
+        "3.8": 0.8115,
+        "3.9": 0.8115,
+        "4.0": 0.8115
+      }
+    }
+  },
+  "frozen_B": {
+    "tune": {
+      "macro_f05": 0.8055,
+      "macro_precision": 0.9028,
+      "macro_recall": 0.7436,
+      "singleton_fp_rate_pct": 33.67,
+      "matched_zero_pred_pct": 4.42,
+      "multi_match_recall": 0.7308,
+      "avg_pred_per_s1": 2.922
+    },
+    "fit": {
+      "macro_f05": 0.8005,
+      "macro_precision": 0.9,
+      "macro_recall": 0.7457,
+      "singleton_fp_rate_pct": 35.76,
+      "matched_zero_pred_pct": 5.0,
+      "multi_match_recall": 0.7301,
+      "avg_pred_per_s1": 2.874
+    }
+  }
+}

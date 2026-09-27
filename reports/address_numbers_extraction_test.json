@@ -1,0 +1,106 @@
+{
+  "test_source1": {
+    "rows": 1732544,
+    "seconds": 15.8,
+    "file_mb": 39.3,
+    "coverage_pct": {
+      "France": {
+        "primary_house_number": 99.39,
+        "house_head": 99.39,
+        "house_atoms": 99.39,
+        "compound_number": 0.07,
+        "unit_number": 0.1,
+        "postal_code": 0.0,
+        "number_tokens": 99.51
+      },
+      "India": {
+        "primary_house_number": 70.77,
+        "house_head": 70.77,
+        "house_atoms": 70.77,
+        "compound_number": 20.9,
+        "unit_number": 11.55,
+        "postal_code": 0.18,
+        "number_tokens": 89.63
+      },
+      "US": {
+        "primary_house_number": 99.99,
+        "house_head": 99.99,
+        "house_atoms": 99.99,
+        "compound_number": 0.69,
+        "unit_number": 12.98,
+        "postal_code": 0.0,
+        "number_tokens": 100.0
+      }
+    }
+  },
+  "test_source2": {
+    "rows": 4887273,
+    "seconds": 35.6,
+    "file_mb": 112.6,
+    "coverage_pct": {
+      "France": {
+        "primary_house_number": 85.95,
+        "house_head": 85.95,
+        "house_atoms": 85.95,
+        "compound_number": 0.07,
+        "unit_number": 0.11,
+        "postal_code": 0.0,
+        "number_tokens": 92.66
+      },
+      "India": {
+        "primary_house_number": 73.77,
+        "house_head": 73.77,
+        "house_atoms": 73.77,
+        "compound_number": 20.7,
+        "unit_number": 8.76,
+        "postal_code": 0.32,
+        "number_tokens": 91.64
+      },
+      "US": {
+        "primary_house_number": 91.46,
+        "house_head": 91.46,
+        "house_atoms": 91.46,
+        "compound_number": 5.36,
+        "unit_number": 0.0,
+        "postal_code": 0.0,
+        "number_tokens": 91.67
+      }
+    }
+  },
+  "test_source3": {
+    "rows": 5082316,
+    "seconds": 37.6,
+    "file_mb": 117.6,
+    "coverage_pct": {
+      "France": {
+        "primary_house_number": 86.39,
+        "house_head": 86.39,
+        "house_atoms": 86.39,
+        "compound_number": 0.07,
+        "unit_number": 0.11,
+        "postal_code": 0.0,
+        "number_tokens": 92.9
+      },
+      "India": {
+        "primary_house_number": 71.84,
+        "house_head": 71.84,
+        "house_atoms": 71.84,
+        "compound_number": 20.24,
+        "unit_number": 8.01,
+        "postal_code": 0.31,
+        "number_tokens": 90.29
+      },
+      "US": {
+        "primary_house_number": 91.82,
+        "house_head": 91.82,
+        "house_atoms": 91.82,
+        "compound_number": 5.23,
+        "unit_number": 8.76,
+        "postal_code": 0.0,
+        "number_tokens": 92.59
+      }
+    }
+  },
+  "total_seconds": 89.3,
+  "parent_peak_rss_mb_note": "workers are separate processes; see log for parent RSS"
+}

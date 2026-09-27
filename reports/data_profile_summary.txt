@@ -1,0 +1,68 @@
+=== train_source1 ===
+records: 2206821  unique_entity_id: 2206821
+  business_name: missing=0.0%  unique%=80.481%  len_mean=24.02  len_p95=37.0  tok_mean=3.57
+  business_address: missing=0.0%  unique%=98.728%  len_mean=52.04  len_p95=103.0  tok_mean=8.5
+  country: missing=0.0%  unique%=0.0%  len_mean=3.2  len_p95=5.0  tok_mean=1.0
+  country_dist: {'US': 1323633, 'India': 883188}
+  address_numeric_token_pct=94.33%  address_5-6digit_code_pct=6.7%
+
+=== train_source2 ===
+records: 5034616  unique_entity_id: 5034616
+  business_name: missing=0.0%  unique%=95.885%  len_mean=25.11  len_p95=40.0  tok_mean=3.29
+  business_address: missing=3.371%  unique%=98.614%  len_mean=47.88  len_p95=97.0  tok_mean=7.97
+  country: missing=0.0%  unique%=0.0%  len_mean=3.21  len_p95=5.0  tok_mean=1.0
+  country_dist: {'US': 3016817, 'India': 2017799}
+  address_numeric_token_pct=90.57%  address_5-6digit_code_pct=7.53%
+
+=== train_source3 ===
+records: 5285603  unique_entity_id: 5285603
+  business_name: missing=0.0%  unique%=96.238%  len_mean=25.18  len_p95=42.0  tok_mean=3.51
+  business_address: missing=3.334%  unique%=98.867%  len_mean=48.35  len_p95=92.0  tok_mean=7.8
+  country: missing=0.0%  unique%=0.0%  len_mean=3.2  len_p95=5.0  tok_mean=1.0
+  country_dist: {'US': 3170056, 'India': 2115547}
+  address_numeric_token_pct=90.74%  address_5-6digit_code_pct=7.55%
+
+=== test_source1 ===
+records: 1732544  unique_entity_id: 1732544
+  business_name: missing=0.0%  unique%=80.253%  len_mean=23.85  len_p95=36.0  tok_mean=3.54
+  business_address: missing=0.0%  unique%=98.626%  len_mean=57.24  len_p95=105.0  tok_mean=9.4
+  country: missing=0.0%  unique%=0.001%  len_mean=4.0  len_p95=6.0  tok_mean=1.0
+  country_dist: {'India': 809986, 'US': 663106, 'France': 259452}
+  address_numeric_token_pct=93.4%  address_5-6digit_code_pct=4.37%
+
+=== test_source2 ===
+records: 4887273  unique_entity_id: 4887273
+  business_name: missing=0.0%  unique%=96.134%  len_mean=25.68  len_p95=42.0  tok_mean=3.29
+  business_address: missing=2.651%  unique%=98.594%  len_mean=51.83  len_p95=100.0  tok_mean=8.63
+  country: missing=0.0%  unique%=0.001%  len_mean=3.99  len_p95=6.0  tok_mean=1.0
+  country_dist: {'India': 2312565, 'US': 1871330, 'France': 703378}
+  address_numeric_token_pct=92.2%  address_5-6digit_code_pct=5.2%
+
+=== test_source3 ===
+records: 5082316  unique_entity_id: 5082316
+  business_name: missing=0.0%  unique%=96.709%  len_mean=25.65  len_p95=42.0  tok_mean=3.54
+  business_address: missing=2.662%  unique%=98.783%  len_mean=50.09  len_p95=95.0  tok_mean=8.3
+  country: missing=0.0%  unique%=0.001%  len_mean=3.99  len_p95=6.0  tok_mean=1.0
+  country_dist: {'India': 2405000, 'US': 1945701, 'France': 731615}
+  address_numeric_token_pct=91.93%  address_5-6digit_code_pct=5.16%
+
+=== train_ground_truth ===
+  n_s1_rows: 2206821
+  n_s1_ids_missing_from_gt_file: 0
+  n_singleton_s1: 123247
+  n_matched_s1: 2083574
+  singleton_pct: 5.585
+  matches_per_matched_s1_mean: 3.666
+  matches_per_matched_s1_median: 4.0
+  matches_per_matched_s1_p95: 6.0
+  matches_per_matched_s1_max: 11
+  total_match_edges: 7638365
+  s2_match_edges: 3693619
+  s3_match_edges: 3944746
+  s2_edge_pct: 48.36
+  s3_edge_pct: 51.64
+  unknown_s2_ids_referenced: 0
+  unknown_s3_ids_referenced: 0
+  self_referential_s1_in_matches: 0
+  load_time_sec: 21.02
+  match_count_histogram (first 20): {0: 123247, 1: 119157, 2: 375212, 3: 530841, 4: 484115, 5: 321957, 6: 164868, 7: 63968, 8: 18680, 9: 4205, 10: 534, 11: 37}

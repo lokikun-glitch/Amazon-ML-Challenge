@@ -1,0 +1,1167 @@
+{
+  "sample_recall_at_maximal_config": 0.9971,
+  "n_positive_edges_in_sample": 172965,
+  "n_missed_edges": 510,
+  "n_examples_classified": 60,
+  "classification_tag_counts": {
+    "missing address information": 19,
+    "minor name variation (typo/abbreviation/word-order)": 15,
+    "DBA/alias (name essentially unrelated)": 35,
+    "other / needs manual review": 4
+  },
+  "examples": [
+    {
+      "s1_id": "S1-804903009",
+      "match_id": "S3-446514939",
+      "s1_raw_name": "Pediatric Dentistry Care Associates",
+      "s1_raw_address": "2404 Almshouse Drive, Fl 0, Odenton, MD",
+      "s1_country": "US",
+      "match_raw_name": "Pediatric Care Dntcitry Associates",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "pediatric dentistry care associates",
+      "match_name_norm": "pediatric care dntcitry associates",
+      "s1_address_norm": "2404 almshouse drive fl 0 odenton md",
+      "match_address_norm": "",
+      "s1_name_translit": "pediatric dentistry care associates",
+      "match_name_translit": "pediatric care dntcitry associates",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-453684837",
+      "match_id": "S3-34507824",
+      "s1_raw_name": "Eye Clinic",
+      "s1_raw_address": "10322 Sagevale Lane, TX, Houston",
+      "s1_country": "US",
+      "match_raw_name": "Eye Services Enterprises",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "eye clinic",
+      "match_name_norm": "eye services enterprises",
+      "s1_address_norm": "10322 sagevale lane tx houston",
+      "match_address_norm": "",
+      "s1_name_translit": "eye clinic",
+      "match_name_translit": "eye services enterprises",
+      "classification_tags": [
+        "missing address information"
+      ]
+    },
+    {
+      "s1_id": "S1-300131573",
+      "match_id": "S2-822093290",
+      "s1_raw_name": "American Guild, LLC",
+      "s1_raw_address": "642 Gammon Road, WI, City Of Madison",
+      "s1_country": "US",
+      "match_raw_name": "American LLC Center",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "american guild llc",
+      "match_name_norm": "american llc center",
+      "s1_address_norm": "642 gammon road wi city of madison",
+      "match_address_norm": "",
+      "s1_name_translit": "american guild llc",
+      "match_name_translit": "american llc center",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-637879403",
+      "match_id": "S3-383449908",
+      "s1_raw_name": "Super Kids Private Limited",
+      "s1_raw_address": "8/43 4Th Floor, Gic Officers Quarter, Opp. Ongc Colony, Ban Dra Reclamation, Bandra (West), Mumbai, Mumbai City, Maharashtra",
+      "s1_country": "India",
+      "match_raw_name": "Lumonyxsol",
+      "match_raw_address": "No /43 4Th Floor, Mumbai Suburban, Mumbai City, MH",
+      "match_country": "India",
+      "s1_name_norm": "super kids private limited",
+      "match_name_norm": "lumonyxsol",
+      "s1_address_norm": "8 43 4th floor gic officers quarter opp ongc colony ban dra reclamation bandra west mumbai mumbai city maharashtra",
+      "match_address_norm": "no 43 4th floor mumbai suburban mumbai city mh",
+      "s1_name_translit": "super kids private limited",
+      "match_name_translit": "lumonyxsol",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-878716044",
+      "match_id": "S3-682852751",
+      "s1_raw_name": "Andrade's Heartland Home Care Inc",
+      "s1_raw_address": "30 Springfield Street, Springfield, MA",
+      "s1_country": "US",
+      "match_raw_name": "homeheartlandandrades.com",
+      "match_raw_address": "Springfield Street, Springfield, Massachusetts",
+      "match_country": "US",
+      "s1_name_norm": "andrade s heartland home care inc",
+      "match_name_norm": "homeheartlandandrades com",
+      "s1_address_norm": "30 springfield street springfield ma",
+      "match_address_norm": "springfield street springfield massachusetts",
+      "s1_name_translit": "andrade s heartland home care inc",
+      "match_name_translit": "homeheartlandandrades com",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-138482708",
+      "match_id": "S3-813903504",
+      "s1_raw_name": "Pediatric Elite Associates",
+      "s1_raw_address": "2174 Seminole Avenue, OH, Springfield",
+      "s1_country": "US",
+      "match_raw_name": "Pediatric  Associates Center Ventures",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "pediatric elite associates",
+      "match_name_norm": "pediatric associates center ventures",
+      "s1_address_norm": "2174 seminole avenue oh springfield",
+      "match_address_norm": "",
+      "s1_name_translit": "pediatric elite associates",
+      "match_name_translit": "pediatric associates center ventures",
+      "classification_tags": [
+        "missing address information"
+      ]
+    },
+    {
+      "s1_id": "S1-528671444",
+      "match_id": "S3-797847818",
+      "s1_raw_name": "Black Exports Limited",
+      "s1_raw_address": "F/F, D-41, South Delhi, New Delhi, Delhi",
+      "s1_country": "India",
+      "match_raw_name": "ब्लैक एक्सपोर्ट्स लिमिटेड",
+      "match_raw_address": "D-31, New Delhi, South Delhi, DL",
+      "match_country": "India",
+      "s1_name_norm": "black exports limited",
+      "match_name_norm": "ब्लैक एक्सपोर्ट्स लिमिटेड",
+      "s1_address_norm": "f f d 41 south delhi new delhi delhi",
+      "match_address_norm": "d 31 new delhi south delhi dl",
+      "s1_name_translit": "black exports limited",
+      "match_name_translit": "blaik eksportts limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-715749940",
+      "match_id": "S3-159904824",
+      "s1_raw_name": "A Sterling Tpg Inc",
+      "s1_raw_address": "1805 Washington Avenue, Park Ridge, IL",
+      "s1_country": "US",
+      "match_raw_name": "A  Sterling",
+      "match_raw_address": "Washington Avenue, Park Ridge, Illinois",
+      "match_country": "US",
+      "s1_name_norm": "a sterling tpg inc",
+      "match_name_norm": "a sterling",
+      "s1_address_norm": "1805 washington avenue park ridge il",
+      "match_address_norm": "washington avenue park ridge illinois",
+      "s1_name_translit": "a sterling tpg inc",
+      "match_name_translit": "a sterling",
+      "classification_tags": [
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-213375151",
+      "match_id": "S3-555808237",
+      "s1_raw_name": "New & Co",
+      "s1_raw_address": "Govind Park Society, Plot No-B.73 Ground Floor, Gujarat, Surat City, Surat",
+      "s1_country": "India",
+      "match_raw_name": "New C0 Center",
+      "match_raw_address": "Surat, GJ, Plot No-b.43 Ground Floor",
+      "match_country": "India",
+      "s1_name_norm": "new and co",
+      "match_name_norm": "new c0 center",
+      "s1_address_norm": "govind park society plot no b 73 ground floor gujarat surat city surat",
+      "match_address_norm": "surat gj plot no b 43 ground floor",
+      "s1_name_translit": "new and co",
+      "match_name_translit": "new c0 center",
+      "classification_tags": [
+        "other / needs manual review"
+      ]
+    },
+    {
+      "s1_id": "S1-213375151",
+      "match_id": "S3-478503651",
+      "s1_raw_name": "New & Co",
+      "s1_raw_address": "Govind Park Society, Plot No-B.73 Ground Floor, Gujarat, Surat City, Surat",
+      "s1_country": "India",
+      "match_raw_name": "& New Co.",
+      "match_raw_address": "GJ, Mumbai, Plot No-b.43 Ground Floor",
+      "match_country": "India",
+      "s1_name_norm": "new and co",
+      "match_name_norm": "and new co",
+      "s1_address_norm": "govind park society plot no b 73 ground floor gujarat surat city surat",
+      "match_address_norm": "gj mumbai plot no b 43 ground floor",
+      "s1_name_translit": "new and co",
+      "match_name_translit": "and new co",
+      "classification_tags": [
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-81226555",
+      "match_id": "S3-596016765",
+      "s1_raw_name": "Premier Finance Private Limited",
+      "s1_raw_address": "Plot No.44-C, Kh. No. 501, Pole No. Njfx108, Munirka, New Delhi, South West Delhi, Delhi",
+      "s1_country": "India",
+      "match_raw_name": "प्रीमियर फाइनेंस प्राइवेट लिमिटेड",
+      "match_raw_address": "South West Delhi, DL, Plot No.45-c, New Delhi",
+      "match_country": "India",
+      "s1_name_norm": "premier finance private limited",
+      "match_name_norm": "प्रीमियर फाइनेंस प्राइवेट लिमिटेड",
+      "s1_address_norm": "plot no 44 c kh no 501 pole no njfx108 munirka new delhi south west delhi delhi",
+      "match_address_norm": "south west delhi dl plot no 45 c new delhi",
+      "s1_name_translit": "premier finance private limited",
+      "match_name_translit": "priimiyr phaainens praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-435037499",
+      "match_id": "S2-759271174",
+      "s1_raw_name": "Laxmi Agro Private Limited",
+      "s1_raw_address": "7Th Floor, No. 707/708, Cyber One, Plot No. 4 & 6, Sector No.30A, Vashi, Na, Vi Mumbai, Thane, Maharashtra",
+      "s1_country": "India",
+      "match_raw_name": "लक्ष्मी एग्रो प्राइवेट लिमिटेड",
+      "match_raw_address": "7TH FLOOR, THANE, null, Maharashtra",
+      "match_country": "India",
+      "s1_name_norm": "laxmi agro private limited",
+      "match_name_norm": "लक्ष्मी एग्रो प्राइवेट लिमिटेड",
+      "s1_address_norm": "7th floor no 707 708 cyber one plot no 4 and 6 sector no 30a vashi na vi mumbai thane maharashtra",
+      "match_address_norm": "7th floor thane null maharashtra",
+      "s1_name_translit": "laxmi agro private limited",
+      "match_name_translit": "lkssmii egro praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-766419854",
+      "match_id": "S3-402975045",
+      "s1_raw_name": "Pacific Legato",
+      "s1_raw_address": "9424 Florin Road, Sacramento, CA",
+      "s1_country": "US",
+      "match_raw_name": "Pacific Legaot",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "pacific legato",
+      "match_name_norm": "pacific legaot",
+      "s1_address_norm": "9424 florin road sacramento ca",
+      "match_address_norm": "",
+      "s1_name_translit": "pacific legato",
+      "match_name_translit": "pacific legaot",
+      "classification_tags": [
+        "missing address information"
+      ]
+    },
+    {
+      "s1_id": "S1-85454359",
+      "match_id": "S2-197631371",
+      "s1_raw_name": "Dream Logistics Private Limited",
+      "s1_raw_address": "Old No, 22/1 & 22/2, New No, 144 And 144/1, Shubharam Complex, 3Rd Floor, Mg Road, Bangalore South, Bangalore, Karnataka",
+      "s1_country": "India",
+      "match_raw_name": "ಡ್ರೀಮ್ ಲಾಜಿಸ್ಟಿಕ್ಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "match_raw_address": "OLD NO, BANGALORE, BANGALORE SOUTH, Karnataka",
+      "match_country": "India",
+      "s1_name_norm": "dream logistics private limited",
+      "match_name_norm": "ಡ್ರೀಮ್ ಲಾಜಿಸ್ಟಿಕ್ಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "s1_address_norm": "old no 22 1 and 22 2 new no 144 and 144 1 shubharam complex 3rd floor mg road bangalore south bangalore karnataka",
+      "match_address_norm": "old no bangalore bangalore south karnataka",
+      "s1_name_translit": "dream logistics private limited",
+      "match_name_translit": "ddriim laajisttiks praiveett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-417554206",
+      "match_id": "S2-837839281",
+      "s1_raw_name": "Sai White Construction Limited",
+      "s1_raw_address": "5Th Floor, Sunteck Centre, Subhash Raod, Vile Parle(East), Mumbai, Mumbai City, Maharashtra",
+      "s1_country": "India",
+      "match_raw_name": "साई व्हाइट कंस्ट्रक्शन लिमिटेड",
+      "match_raw_address": "H.NO 5TH FLOOR, Maharashtra, MUMBAI, MUMBAI CITY",
+      "match_country": "India",
+      "s1_name_norm": "sai white construction limited",
+      "match_name_norm": "साई व्हाइट कंस्ट्रक्शन लिमिटेड",
+      "s1_address_norm": "5th floor sunteck centre subhash raod vile parle east mumbai mumbai city maharashtra",
+      "match_address_norm": "h no 5th floor maharashtra mumbai mumbai city",
+      "s1_name_translit": "sai white construction limited",
+      "match_name_translit": "saaii vhaaitt knsttrkshn limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-417554206",
+      "match_id": "S3-116133440",
+      "s1_raw_name": "Sai White Construction Limited",
+      "s1_raw_address": "5Th Floor, Sunteck Centre, Subhash Raod, Vile Parle(East), Mumbai, Mumbai City, Maharashtra",
+      "s1_country": "India",
+      "match_raw_name": "साई व्हाइट कंस्ट्रक्शन लिमिटेड",
+      "match_raw_address": "No 5Th Folor, Mumbai, Mumbai City, महाराष्ट्र",
+      "match_country": "India",
+      "s1_name_norm": "sai white construction limited",
+      "match_name_norm": "साई व्हाइट कंस्ट्रक्शन लिमिटेड",
+      "s1_address_norm": "5th floor sunteck centre subhash raod vile parle east mumbai mumbai city maharashtra",
+      "match_address_norm": "no 5th folor mumbai mumbai city महाराष्ट्र",
+      "s1_name_translit": "sai white construction limited",
+      "match_name_translit": "saaii vhaaitt knsttrkshn limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-699806843",
+      "match_id": "S2-540093014",
+      "s1_raw_name": "South Ventures Private Limited",
+      "s1_raw_address": "26, Ground Floor, Sir Fort Road, New Delhi, South Delhi, Delhi",
+      "s1_country": "India",
+      "match_raw_name": "साउथ वेंचर्स Private Limited",
+      "match_raw_address": "BLOCK B-473 26, NEW DELHI, SOUTH DELHI, दिल्ली",
+      "match_country": "India",
+      "s1_name_norm": "south ventures private limited",
+      "match_name_norm": "साउथ वेंचर्स private limited",
+      "s1_address_norm": "26 ground floor sir fort road new delhi south delhi delhi",
+      "match_address_norm": "block b 473 26 new delhi south delhi दिल्ली",
+      "s1_name_translit": "south ventures private limited",
+      "match_name_translit": "saauth vencrs private limited",
+      "classification_tags": [
+        "other / needs manual review"
+      ]
+    },
+    {
+      "s1_id": "S1-657138265",
+      "match_id": "S3-934953058",
+      "s1_raw_name": "Superior Analytics LLC",
+      "s1_raw_address": "182 Newport Street, Arlington, MA",
+      "s1_country": "US",
+      "match_raw_name": "Superior LLC Center",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "superior analytics llc",
+      "match_name_norm": "superior llc center",
+      "s1_address_norm": "182 newport street arlington ma",
+      "match_address_norm": "",
+      "s1_name_translit": "superior analytics llc",
+      "match_name_translit": "superior llc center",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-926817584",
+      "match_id": "S2-931191363",
+      "s1_raw_name": "Dental Partners",
+      "s1_raw_address": "5883 154, Gilmer, TX",
+      "s1_country": "US",
+      "match_raw_name": "Dental  Partners Enterprises",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "dental partners",
+      "match_name_norm": "dental partners enterprises",
+      "s1_address_norm": "5883 154 gilmer tx",
+      "match_address_norm": "",
+      "s1_name_translit": "dental partners",
+      "match_name_translit": "dental partners enterprises",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-890988343",
+      "match_id": "S3-834201810",
+      "s1_raw_name": "Ace Projects Limited",
+      "s1_raw_address": "Shop No. 9, Parekh Building Sangam Chs Ltd., N. G. Acharya Marg, Che, Mbur, Mumbai, Mumbai City, Maharashtra",
+      "s1_country": "India",
+      "match_raw_name": "एस प्रोजेक्ट्स लिमिटेड",
+      "match_raw_address": "Plot 145 124, Bombay, Mumbai City, MH",
+      "match_country": "India",
+      "s1_name_norm": "ace projects limited",
+      "match_name_norm": "एस प्रोजेक्ट्स लिमिटेड",
+      "s1_address_norm": "shop no 9 parekh building sangam chs ltd n g acharya marg che mbur mumbai mumbai city maharashtra",
+      "match_address_norm": "plot 145 124 bombay mumbai city mh",
+      "s1_name_translit": "ace projects limited",
+      "match_name_translit": "es projektts limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-254440362",
+      "match_id": "S3-734943831",
+      "s1_raw_name": "West Surgical, Inc.",
+      "s1_raw_address": "400 Holstein Street, Unit Unit 2, Bridgeport Borough, PA",
+      "s1_country": "US",
+      "match_raw_name": "West 5udilc, Inc.",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "west surgical inc",
+      "match_name_norm": "west 5udilc inc",
+      "s1_address_norm": "400 holstein street unit unit 2 bridgeport borough pa",
+      "match_address_norm": "",
+      "s1_name_translit": "west surgical inc",
+      "match_name_translit": "west 5udilc inc",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-283719347",
+      "match_id": "S2-552967881",
+      "s1_raw_name": "Cauvery Stay Ltd",
+      "s1_raw_address": "10, Sumer Nagar-Iii Kalyanpura Mansarovar, Jaipur, Rajasthan",
+      "s1_country": "India",
+      "match_raw_name": "Nylaquo",
+      "match_raw_address": "JAIPUR, BLOCK C-184 10, Rajasthan, JAIPUR",
+      "match_country": "India",
+      "s1_name_norm": "cauvery stay ltd",
+      "match_name_norm": "nylaquo",
+      "s1_address_norm": "10 sumer nagar iii kalyanpura mansarovar jaipur rajasthan",
+      "match_address_norm": "jaipur block c 184 10 rajasthan jaipur",
+      "s1_name_translit": "cauvery stay ltd",
+      "match_name_translit": "nylaquo",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-644880051",
+      "match_id": "S3-62409091",
+      "s1_raw_name": "Surya Balaji Logistics Private Limited",
+      "s1_raw_address": "Maharashtra, Mumbai City, 5/502, Shubh Apartment, B.G.Kher Road Next To Campa Cola Factory, Worli Naka, Worli, Mumbai",
+      "s1_country": "India",
+      "match_raw_name": "सूर्या बालाजी लॉजिस्टिक्स प्राइवेट लिमिटेड",
+      "match_raw_address": "05/502, Mumbai, Mumbai (SUBURBAN), MH",
+      "match_country": "India",
+      "s1_name_norm": "surya balaji logistics private limited",
+      "match_name_norm": "सूर्या बालाजी लॉजिस्टिक्स प्राइवेट लिमिटेड",
+      "s1_address_norm": "maharashtra mumbai city 5 502 shubh apartment b g kher road next to campa cola factory worli naka worli mumbai",
+      "match_address_norm": "05 502 mumbai mumbai suburban mh",
+      "s1_name_translit": "surya balaji logistics private limited",
+      "match_name_translit": "suuryaa baalaajii lonjisttiks praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-392671167",
+      "match_id": "S2-629851315",
+      "s1_raw_name": "Tech Technologies Pvt Ltd",
+      "s1_raw_address": "K No 72, Bellahalli Village, Bangalore, Karnataka, No 22, Bangalore",
+      "s1_country": "India",
+      "match_raw_name": "ಟೆಕ್ ಟೆಕ್ನಾಲಜೀಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "match_raw_address": "NO 22, BANGALORE, ಕರ್ನಾಟಕ",
+      "match_country": "India",
+      "s1_name_norm": "tech technologies pvt ltd",
+      "match_name_norm": "ಟೆಕ್ ಟೆಕ್ನಾಲಜೀಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "s1_address_norm": "k no 72 bellahalli village bangalore karnataka no 22 bangalore",
+      "match_address_norm": "no 22 bangalore ಕರ್ನಾಟಕ",
+      "s1_name_translit": "tech technologies pvt ltd",
+      "match_name_translit": "ttek tteknaaljiis praiveett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-617502134",
+      "match_id": "S3-537181754",
+      "s1_raw_name": "Lakshmi Technology Private Limited",
+      "s1_raw_address": "Flat No.1-3, Prashanthi Field Post Office Road, Kadugodi, Bangalore, Karnataka, Bangalore, 3Rd Floor",
+      "s1_country": "India",
+      "match_raw_name": "ಲಕ್ಷ್ಮಿ Technology ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "match_raw_address": "H.no 3Rd Floor, Bangalore, KA",
+      "match_country": "India",
+      "s1_name_norm": "lakshmi technology private limited",
+      "match_name_norm": "ಲಕ್ಷ್ಮಿ technology ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "s1_address_norm": "flat no 1 3 prashanthi field post office road kadugodi bangalore karnataka bangalore 3rd floor",
+      "match_address_norm": "h no 3rd floor bangalore ka",
+      "s1_name_translit": "lakshmi technology private limited",
+      "match_name_translit": "lkssmi technology praiveett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-67470440",
+      "match_id": "S2-479533059",
+      "s1_raw_name": "Green Engineering Private Limited",
+      "s1_raw_address": "Maharashtra, Mumbai, 1St Floor, Sapphire Pearl, 18A Road, Khar West, Mumbai, 101",
+      "s1_country": "India",
+      "match_raw_name": "ग्रीन इंजीनियरिंग प्राइवेट लिमिटेड",
+      "match_raw_address": "H.NO 904 101, MUMBAI, Maharashtra",
+      "match_country": "India",
+      "s1_name_norm": "green engineering private limited",
+      "match_name_norm": "ग्रीन इंजीनियरिंग प्राइवेट लिमिटेड",
+      "s1_address_norm": "maharashtra mumbai 1st floor sapphire pearl 18a road khar west mumbai 101",
+      "match_address_norm": "h no 904 101 mumbai maharashtra",
+      "s1_name_translit": "green engineering private limited",
+      "match_name_translit": "griin injiiniyring praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-148728318",
+      "match_id": "S2-394110611",
+      "s1_raw_name": "One Builders Private Limited",
+      "s1_raw_address": "Ground Floor, 2Nd Cross, Narasimha Reddy Layout, Garvebhavipalya, Hosur Main Road, Bangalore, Karnataka",
+      "s1_country": "India",
+      "match_raw_name": "ಒನ್ ಬಿಲ್ಡರ್ಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "match_raw_address": "#150 GRUND FLOOR, BANGALORE RURAL, BANGALORE, Karnataka",
+      "match_country": "India",
+      "s1_name_norm": "one builders private limited",
+      "match_name_norm": "ಒನ್ ಬಿಲ್ಡರ್ಸ್ ಪ್ರೈವೇಟ್ ಲಿಮಿಟೆಡ್",
+      "s1_address_norm": "ground floor 2nd cross narasimha reddy layout garvebhavipalya hosur main road bangalore karnataka",
+      "match_address_norm": "150 grund floor bangalore rural bangalore karnataka",
+      "s1_name_translit": "one builders private limited",
+      "match_name_translit": "on bilddrs praiveett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-526611306",
+      "match_id": "S2-744158325",
+      "s1_raw_name": "Blue Infotech Private Limited",
+      "s1_raw_address": "A-Block, 3 Floor, 1 To 6 Mamta Complex, Sarkehj-Sanad Road, Sarkhej, Ahmedabad, Gujarat",
+      "s1_country": "India",
+      "match_raw_name": "બ્લૂ ઇન્ફોટેક પ્રાઇવેટ લિમિટેડ",
+      "match_raw_address": "A-BLOCK, AHMEDABAD, Gujarat",
+      "match_country": "India",
+      "s1_name_norm": "blue infotech private limited",
+      "match_name_norm": "બ્લૂ ઇન્ફોટેક પ્રાઇવેટ લિમિટેડ",
+      "s1_address_norm": "a block 3 floor 1 to 6 mamta complex sarkehj sanad road sarkhej ahmedabad gujarat",
+      "match_address_norm": "a block ahmedabad gujarat",
+      "s1_name_translit": "blue infotech private limited",
+      "match_name_translit": "bluu inphottek praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-526611306",
+      "match_id": "S3-669463726",
+      "s1_raw_name": "Blue Infotech Private Limited",
+      "s1_raw_address": "A-Block, 3 Floor, 1 To 6 Mamta Complex, Sarkehj-Sanad Road, Sarkhej, Ahmedabad, Gujarat",
+      "s1_country": "India",
+      "match_raw_name": "બ્લૂ ઇન્ફોટેક પ્રાઇવેટ લિમિટેડ",
+      "match_raw_address": "A-block, Ahmedabad, GJ",
+      "match_country": "India",
+      "s1_name_norm": "blue infotech private limited",
+      "match_name_norm": "બ્લૂ ઇન્ફોટેક પ્રાઇવેટ લિમિટેડ",
+      "s1_address_norm": "a block 3 floor 1 to 6 mamta complex sarkehj sanad road sarkhej ahmedabad gujarat",
+      "match_address_norm": "a block ahmedabad gj",
+      "s1_name_translit": "blue infotech private limited",
+      "match_name_translit": "bluu inphottek praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-393145606",
+      "match_id": "S2-181385864",
+      "s1_raw_name": "Federal Precision Reserve",
+      "s1_raw_address": "856 Highland Drive, Montgomery, VT",
+      "s1_country": "US",
+      "match_raw_name": "FEDERAL [PRECISION]",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "federal precision reserve",
+      "match_name_norm": "federal precision",
+      "s1_address_norm": "856 highland drive montgomery vt",
+      "match_address_norm": "",
+      "s1_name_translit": "federal precision reserve",
+      "match_name_translit": "federal precision",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-743377924",
+      "match_id": "S3-166720377",
+      "s1_raw_name": "Capital Council Inc",
+      "s1_raw_address": "46 Yellowbird Woman Road, MT, Browning",
+      "s1_country": "US",
+      "match_raw_name": "Capital Councl Inc",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "capital council inc",
+      "match_name_norm": "capital councl inc",
+      "s1_address_norm": "46 yellowbird woman road mt browning",
+      "match_address_norm": "",
+      "s1_name_translit": "capital council inc",
+      "match_name_translit": "capital councl inc",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-451475764",
+      "match_id": "S3-556707970",
+      "s1_raw_name": "Integrated Atlantic International Inc",
+      "s1_raw_address": "901 E Lawn Drive, Fort Wayne, IN",
+      "s1_country": "US",
+      "match_raw_name": "Integrated  Atlantic Internati0nal Inc",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "integrated atlantic international inc",
+      "match_name_norm": "integrated atlantic internati0nal inc",
+      "s1_address_norm": "901 e lawn drive fort wayne in",
+      "match_address_norm": "",
+      "s1_name_translit": "integrated atlantic international inc",
+      "match_name_translit": "integrated atlantic internati0nal inc",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-972394445",
+      "match_id": "S3-589305598",
+      "s1_raw_name": "Super Investments",
+      "s1_raw_address": "Mumbai, Shreenath Chs Ltd. Gandhi Chowk, Rd. No. 5, Prabhat Colony, Nr. Hotel Galaxy, A-23, Maharashtra, Mumbai",
+      "s1_country": "India",
+      "match_raw_name": "सुपर इन्वेस्टमेंट्स",
+      "match_raw_address": "A-23., Mumbai, महाराष्ट्र",
+      "match_country": "India",
+      "s1_name_norm": "super investments",
+      "match_name_norm": "सुपर इन्वेस्टमेंट्स",
+      "s1_address_norm": "mumbai shreenath chs ltd gandhi chowk rd no 5 prabhat colony nr hotel galaxy a 23 maharashtra mumbai",
+      "match_address_norm": "a 23 mumbai महाराष्ट्र",
+      "s1_name_translit": "super investments",
+      "match_name_translit": "supr investtmentts",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-664010419",
+      "match_id": "S2-925961789",
+      "s1_raw_name": "Shakti Finance Pvt Ltd",
+      "s1_raw_address": "Flat No. A702, Tower H, Lodha Trafalgar Square, Thane, Maharashtra",
+      "s1_country": "India",
+      "match_raw_name": "शक्ति फाइनेंस प्रा. लि.",
+      "match_raw_address": "Maharashtra, FLAT NO. A6-702, THANE",
+      "match_country": "India",
+      "s1_name_norm": "shakti finance pvt ltd",
+      "match_name_norm": "शक्ति फाइनेंस प्रा लि",
+      "s1_address_norm": "flat no a702 tower h lodha trafalgar square thane maharashtra",
+      "match_address_norm": "maharashtra flat no a6 702 thane",
+      "s1_name_translit": "shakti finance pvt ltd",
+      "match_name_translit": "shkti phaainens praa li",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-234268310",
+      "match_id": "S2-84772110",
+      "s1_raw_name": "Supreme Projects Private Limited",
+      "s1_raw_address": "104, Malathi Blk, Sri Mahalakshmi Malika Apts 6 Jt Rathinavel Pandian, Chennai, Tamil Nadu",
+      "s1_country": "India",
+      "match_raw_name": "சுப்ரீம் புராஜெக்ட்ஸ் பிரைவேட் லிமிடெட்",
+      "match_raw_address": "PLOT 126 104, CHENNAI, Tamil Nadu",
+      "match_country": "India",
+      "s1_name_norm": "supreme projects private limited",
+      "match_name_norm": "சுப்ரீம் புராஜெக்ட்ஸ் பிரைவேட் லிமிடெட்",
+      "s1_address_norm": "104 malathi blk sri mahalakshmi malika apts 6 jt rathinavel pandian chennai tamil nadu",
+      "match_address_norm": "plot 126 104 chennai tamil nadu",
+      "s1_name_translit": "supreme projects private limited",
+      "match_name_translit": "cupriim puraajektts piraiveett limittett",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-258506327",
+      "match_id": "S2-459699491",
+      "s1_raw_name": "Alpha Solutions Private Limited",
+      "s1_raw_address": "Bldg No - 4, Flat No - 41S, 139/140 M, M I D C Pimpri, Pune, Pune, Maharashtra",
+      "s1_country": "India",
+      "match_raw_name": "अल्फा सॉल्यूशंस प्राइवेट लिमिटेड",
+      "match_raw_address": "HN 16 BLDG NO - 4, PUNE, Maharashtra",
+      "match_country": "India",
+      "s1_name_norm": "alpha solutions private limited",
+      "match_name_norm": "अल्फा सॉल्यूशंस प्राइवेट लिमिटेड",
+      "s1_address_norm": "bldg no 4 flat no 41s 139 140 m m i d c pimpri pune pune maharashtra",
+      "match_address_norm": "hn 16 bldg no 4 pune maharashtra",
+      "s1_name_translit": "alpha solutions private limited",
+      "match_name_translit": "alphaa sonlyuushns praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-675705908",
+      "match_id": "S3-846452471",
+      "s1_raw_name": "Mountain Spring Inc.",
+      "s1_raw_address": "499 Healan Place, Lenoir, NC",
+      "s1_country": "US",
+      "match_raw_name": "Mountain Ssreng Inc.",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "mountain spring inc",
+      "match_name_norm": "mountain ssreng inc",
+      "s1_address_norm": "499 healan place lenoir nc",
+      "match_address_norm": "",
+      "s1_name_translit": "mountain spring inc",
+      "match_name_translit": "mountain ssreng inc",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-4891886",
+      "match_id": "S3-844338296",
+      "s1_raw_name": "Urgent Care Physicians Inc",
+      "s1_raw_address": "AZ, 38126 12th Avenue, Phoenix",
+      "s1_country": "US",
+      "match_raw_name": "urgentcarephysicians.com",
+      "match_raw_address": "38126c Twelfth Ave, Phoenix, Arizona",
+      "match_country": "US",
+      "s1_name_norm": "urgent care physicians inc",
+      "match_name_norm": "urgentcarephysicians com",
+      "s1_address_norm": "az 38126 12th avenue phoenix",
+      "match_address_norm": "38126c twelfth ave phoenix arizona",
+      "s1_name_translit": "urgent care physicians inc",
+      "match_name_translit": "urgentcarephysicians com",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-761623737",
+      "match_id": "S2-314848896",
+      "s1_raw_name": "Hari Ventures Pvt Ltd",
+      "s1_raw_address": "Plot No.7341/10158 Adimata Colony, Near Sainik School, Bhubaneswar, Khordha, Orissa",
+      "s1_country": "India",
+      "match_raw_name": "HARl VETNRUIHES PVT LTD",
+      "match_raw_address": NaN,
+      "match_country": "India",
+      "s1_name_norm": "hari ventures pvt ltd",
+      "match_name_norm": "harl vetnruihes pvt ltd",
+      "s1_address_norm": "plot no 7341 10158 adimata colony near sainik school bhubaneswar khordha orissa",
+      "match_address_norm": "",
+      "s1_name_translit": "hari ventures pvt ltd",
+      "match_name_translit": "harl vetnruihes pvt ltd",
+      "classification_tags": [
+        "missing address information"
+      ]
+    },
+    {
+      "s1_id": "S1-257064432",
+      "match_id": "S3-81310658",
+      "s1_raw_name": "Krishna Infrastructure Pvt Ltd",
+      "s1_raw_address": "Flat No. 29B, Sector-1, Shreeram Nagar-B, Jaipur, Rajasthan",
+      "s1_country": "India",
+      "match_raw_name": "कृष्ण इंफ्रास्ट्रक्चर प्रा. लि.",
+      "match_raw_address": "Door No 29, Jaipur, RJ",
+      "match_country": "India",
+      "s1_name_norm": "krishna infrastructure pvt ltd",
+      "match_name_norm": "कृष्ण इंफ्रास्ट्रक्चर प्रा लि",
+      "s1_address_norm": "flat no 29b sector 1 shreeram nagar b jaipur rajasthan",
+      "match_address_norm": "door no 29 jaipur rj",
+      "s1_name_translit": "krishna infrastructure pvt ltd",
+      "match_name_translit": "krssnn inphraasttrkcr praa li",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-684963707",
+      "match_id": "S3-978625899",
+      "s1_raw_name": "Digital Business Pvt Ltd",
+      "s1_raw_address": "Flat No 705, Ok Plus, Green Heights Sirsi Road, Jaipur, Rajasthan",
+      "s1_country": "India",
+      "match_raw_name": "डिजिटल बिजनेस प्रा. लि.",
+      "match_raw_address": "05, Jaipur, राजस्थान",
+      "match_country": "India",
+      "s1_name_norm": "digital business pvt ltd",
+      "match_name_norm": "डिजिटल बिजनेस प्रा लि",
+      "s1_address_norm": "flat no 705 ok plus green heights sirsi road jaipur rajasthan",
+      "match_address_norm": "05 jaipur राजस्थान",
+      "s1_name_translit": "digital business pvt ltd",
+      "match_name_translit": "ddijittl bijnes praa li",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-699049804",
+      "match_id": "S3-8814643",
+      "s1_raw_name": "Sun Foundation",
+      "s1_raw_address": "Noida, Sector 63, Uttar Pradesh, Gautam Buddha Nagar, D-7",
+      "s1_country": "India",
+      "match_raw_name": "सन फाउंडेशन",
+      "match_raw_address": "Door No 24 D-7, Gautam Buddha Nagar, UP",
+      "match_country": "India",
+      "s1_name_norm": "sun foundation",
+      "match_name_norm": "सन फाउंडेशन",
+      "s1_address_norm": "noida sector 63 uttar pradesh gautam buddha nagar d 7",
+      "match_address_norm": "door no 24 d 7 gautam buddha nagar up",
+      "s1_name_translit": "sun foundation",
+      "match_name_translit": "sn phaaunddeshn",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-522323498",
+      "match_id": "S2-795609690",
+      "s1_raw_name": "Harrods Apparel Pvt Ltd",
+      "s1_raw_address": "Flat No: 14, Floor No: 3, Wing: Jn 3-7, Plot No: Cond 3, Jn-3-7, Maharashtra, Mumbai City, Maharashtra",
+      "s1_country": "India",
+      "match_raw_name": "Dovazetazeta",
+      "match_raw_address": "FLAT NO: 1-14, MAHARASHTRA, MUMBAI CITY, महाराष्ट्र",
+      "match_country": "India",
+      "s1_name_norm": "harrods apparel pvt ltd",
+      "match_name_norm": "dovazetazeta",
+      "s1_address_norm": "flat no 14 floor no 3 wing jn 3 7 plot no cond 3 jn 3 7 maharashtra mumbai city maharashtra",
+      "match_address_norm": "flat no 1 14 maharashtra mumbai city महाराष्ट्र",
+      "s1_name_translit": "harrods apparel pvt ltd",
+      "match_name_translit": "dovazetazeta",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-875392180",
+      "match_id": "S3-580263862",
+      "s1_raw_name": "Om Care Private Limited",
+      "s1_raw_address": "66/B, Phase - Ii, I.D.A Mallapur, Hyderabad, Telangana",
+      "s1_country": "India",
+      "match_raw_name": "ఓం కేర్ ప్రైవేట్ లిమిటెడ్",
+      "match_raw_address": "56/B, Hyderabad, Andhra Pradesh",
+      "match_country": "India",
+      "s1_name_norm": "om care private limited",
+      "match_name_norm": "ఓం కేర్ ప్రైవేట్ లిమిటెడ్",
+      "s1_address_norm": "66 b phase ii i d a mallapur hyderabad telangana",
+      "match_address_norm": "56 b hyderabad andhra pradesh",
+      "s1_name_translit": "om care private limited",
+      "match_name_translit": "oon keer praiveett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-289445718",
+      "match_id": "S3-567651459",
+      "s1_raw_name": "Classic Management Private Limited",
+      "s1_raw_address": "Tamil Nadu, Refex Towers, Sterling Road Signal, 313, Valluvar Kottam High Road, Nungambakkam, Second Floor, Chennai",
+      "s1_country": "India",
+      "match_raw_name": "கிளாசிக் மேனேஜ்மெண்ட் பிரைவேட் லிமிடெட்",
+      "match_raw_address": "தமிழ்நாடு, Chennai, Second Floor, Chennai",
+      "match_country": "India",
+      "s1_name_norm": "classic management private limited",
+      "match_name_norm": "கிளாசிக் மேனேஜ்மெண்ட் பிரைவேட் லிமிடெட்",
+      "s1_address_norm": "tamil nadu refex towers sterling road signal 313 valluvar kottam high road nungambakkam second floor chennai",
+      "match_address_norm": "தமிழ்நாடு chennai second floor chennai",
+      "s1_name_translit": "classic management private limited",
+      "match_name_translit": "killaacik meennneejmenntt piraiveett limittett",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-695137899",
+      "match_id": "S3-294064077",
+      "s1_raw_name": "Heritage Council",
+      "s1_raw_address": "144 Hog Hollow, Moretown, VT",
+      "s1_country": "US",
+      "match_raw_name": "Heritage Counci1",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "heritage council",
+      "match_name_norm": "heritage counci1",
+      "s1_address_norm": "144 hog hollow moretown vt",
+      "match_address_norm": "",
+      "s1_name_translit": "heritage council",
+      "match_name_translit": "heritage counci1",
+      "classification_tags": [
+        "missing address information"
+      ]
+    },
+    {
+      "s1_id": "S1-118502154",
+      "match_id": "S3-592354415",
+      "s1_raw_name": "North Constructions Private Limited",
+      "s1_raw_address": "Office No Bw9021, Maharashtra, 9Th Floor, G Block Bharat Diamond Bourse, Bkc, Bandra East, Bandra Suburban, Mumbai",
+      "s1_country": "India",
+      "match_raw_name": "नॉर्थ कंस्ट्रक्शंस Private Limited",
+      "match_raw_address": "Office No Bwa-9021, Bombay, महाराष्ट्र",
+      "match_country": "India",
+      "s1_name_norm": "north constructions private limited",
+      "match_name_norm": "नॉर्थ कंस्ट्रक्शंस private limited",
+      "s1_address_norm": "office no bw9021 maharashtra 9th floor g block bharat diamond bourse bkc bandra east bandra suburban mumbai",
+      "match_address_norm": "office no bwa 9021 bombay महाराष्ट्र",
+      "s1_name_translit": "north constructions private limited",
+      "match_name_translit": "nonrth knsttrkshns private limited",
+      "classification_tags": [
+        "other / needs manual review"
+      ]
+    },
+    {
+      "s1_id": "S1-910757419",
+      "match_id": "S3-965855927",
+      "s1_raw_name": "Urban Foundation Private Limited",
+      "s1_raw_address": "M2, 1St Floor, Tnhb Appartments 4Th Avenue, Indira Nagar, Adyar, Chennai, Tamil Nadu",
+      "s1_country": "India",
+      "match_raw_name": "அர்பன் ஃபவுண்டேஷன் பிரைவேட் லிமிடெட்",
+      "match_raw_address": "Mc-2, Chennai, TN",
+      "match_country": "India",
+      "s1_name_norm": "urban foundation private limited",
+      "match_name_norm": "அர்பன் ஃபவுண்டேஷன் பிரைவேட் லிமிடெட்",
+      "s1_address_norm": "m2 1st floor tnhb appartments 4th avenue indira nagar adyar chennai tamil nadu",
+      "match_address_norm": "mc 2 chennai tn",
+      "s1_name_translit": "urban foundation private limited",
+      "match_name_translit": "arpnnn hpvunntteessnnn piraiveett limittett",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-16310913",
+      "match_id": "S3-463536869",
+      "s1_raw_name": "Real Food Private Limited",
+      "s1_raw_address": "D-8/20, Fl No- Sf-02, Dlf Ankur Vih, Dlf Ankur Vihar, Ghaziabad, Uttar Pradesh",
+      "s1_country": "India",
+      "match_raw_name": "रियल फूड प्राइवेट लिमिटेड",
+      "match_raw_address": "Block E-93/1 D-8/20, Ghaziabad, उत्तर प्रदेश",
+      "match_country": "India",
+      "s1_name_norm": "real food private limited",
+      "match_name_norm": "रियल फूड प्राइवेट लिमिटेड",
+      "s1_address_norm": "d 8 20 fl no sf 02 dlf ankur vih dlf ankur vihar ghaziabad uttar pradesh",
+      "match_address_norm": "block e 93 1 d 8 20 ghaziabad उत्तर प्रदेश",
+      "s1_name_translit": "real food private limited",
+      "match_name_translit": "riyl phuudd praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-793493773",
+      "match_id": "S2-372964890",
+      "s1_raw_name": "National Western",
+      "s1_raw_address": "18 Newcastle Place, Unit UNIT POOL, Stafford County, VA",
+      "s1_country": "US",
+      "match_raw_name": "NATIONAL-W5ETIEN",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "national western",
+      "match_name_norm": "national w5etien",
+      "s1_address_norm": "18 newcastle place unit unit pool stafford county va",
+      "match_address_norm": "",
+      "s1_name_translit": "national western",
+      "match_name_translit": "national w5etien",
+      "classification_tags": [
+        "missing address information"
+      ]
+    },
+    {
+      "s1_id": "S1-968399514",
+      "match_id": "S2-784645251",
+      "s1_raw_name": "Real Healthcare Private Limited",
+      "s1_raw_address": "Bihar, Patna, 4/23 Bahadurpur Housing Colony, Kankarbagh, Patna, 7 M.F.",
+      "s1_country": "India",
+      "match_raw_name": "रियल हेल्थकेयर प्राइवेट लिमिटेड",
+      "match_raw_address": "##7 M.F., PATNA, Bihar",
+      "match_country": "India",
+      "s1_name_norm": "real healthcare private limited",
+      "match_name_norm": "रियल हेल्थकेयर प्राइवेट लिमिटेड",
+      "s1_address_norm": "bihar patna 4 23 bahadurpur housing colony kankarbagh patna 7 m f",
+      "match_address_norm": "7 m f patna bihar",
+      "s1_name_translit": "real healthcare private limited",
+      "match_name_translit": "riyl helthkeyr praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-964742696",
+      "match_id": "S3-430477579",
+      "s1_raw_name": "Highland Trust LP",
+      "s1_raw_address": "NC, 3673 Charolais Lane, Harrisburg",
+      "s1_country": "US",
+      "match_raw_name": "Highland LP Center",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "highland trust lp",
+      "match_name_norm": "highland lp center",
+      "s1_address_norm": "nc 3673 charolais lane harrisburg",
+      "match_address_norm": "",
+      "s1_name_translit": "highland trust lp",
+      "match_name_translit": "highland lp center",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-594053730",
+      "match_id": "S3-522138437",
+      "s1_raw_name": "All Agro Private Limited",
+      "s1_raw_address": "A-55, Vasant Kunj, New Delhi, Delhi",
+      "s1_country": "India",
+      "match_raw_name": "ऑल एग्रो प्राइवेट लिमिटेड",
+      "match_raw_address": "A-0055, South West Delhi, New Delhi, DL",
+      "match_country": "India",
+      "s1_name_norm": "all agro private limited",
+      "match_name_norm": "ऑल एग्रो प्राइवेट लिमिटेड",
+      "s1_address_norm": "a 55 vasant kunj new delhi delhi",
+      "match_address_norm": "a 0055 south west delhi new delhi dl",
+      "s1_name_translit": "all agro private limited",
+      "match_name_translit": "onl egro praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-594053730",
+      "match_id": "S3-904479673",
+      "s1_raw_name": "All Agro Private Limited",
+      "s1_raw_address": "A-55, Vasant Kunj, New Delhi, Delhi",
+      "s1_country": "India",
+      "match_raw_name": "ऑल एग्रो प्राइवेट लिमिटेड",
+      "match_raw_address": "A-0055, South West Delhi, New Delhi, DL",
+      "match_country": "India",
+      "s1_name_norm": "all agro private limited",
+      "match_name_norm": "ऑल एग्रो प्राइवेट लिमिटेड",
+      "s1_address_norm": "a 55 vasant kunj new delhi delhi",
+      "match_address_norm": "a 0055 south west delhi new delhi dl",
+      "s1_name_translit": "all agro private limited",
+      "match_name_translit": "onl egro praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-66552423",
+      "match_id": "S3-961931875",
+      "s1_raw_name": "Golden Aviation Inc",
+      "s1_raw_address": "1563 Razorback Road, Unit Apt 304, Fayetteville, AR",
+      "s1_country": "US",
+      "match_raw_name": "Golden-Inc Services",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "golden aviation inc",
+      "match_name_norm": "golden inc services",
+      "s1_address_norm": "1563 razorback road unit apt 304 fayetteville ar",
+      "match_address_norm": "",
+      "s1_name_translit": "golden aviation inc",
+      "match_name_translit": "golden inc services",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-806128333",
+      "match_id": "S3-690641296",
+      "s1_raw_name": "Tri-State Management, Inc",
+      "s1_raw_address": "71 Newcomb Street, NY, Rochester",
+      "s1_country": "US",
+      "match_raw_name": "Tri-State Inc Center Enterprises",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "tri state management inc",
+      "match_name_norm": "tri state inc center enterprises",
+      "s1_address_norm": "71 newcomb street ny rochester",
+      "match_address_norm": "",
+      "s1_name_translit": "tri state management inc",
+      "match_name_translit": "tri state inc center enterprises",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-688847887",
+      "match_id": "S2-220869967",
+      "s1_raw_name": "Highland Strategic Strategic Inc",
+      "s1_raw_address": "6520 175th Avenue, Beaverton, OR",
+      "s1_country": "US",
+      "match_raw_name": "Highland Strategic Inc Services",
+      "match_raw_address": NaN,
+      "match_country": "US",
+      "s1_name_norm": "highland strategic strategic inc",
+      "match_name_norm": "highland strategic inc services",
+      "s1_address_norm": "6520 175th avenue beaverton or",
+      "match_address_norm": "",
+      "s1_name_translit": "highland strategic strategic inc",
+      "match_name_translit": "highland strategic inc services",
+      "classification_tags": [
+        "missing address information",
+        "minor name variation (typo/abbreviation/word-order)"
+      ]
+    },
+    {
+      "s1_id": "S1-741942385",
+      "match_id": "S3-329000943",
+      "s1_raw_name": "Charming Vidyalaya",
+      "s1_raw_address": "2415, C2, Vasant Kunj, New Delhi, Delhi",
+      "s1_country": "India",
+      "match_raw_name": "Evoarc",
+      "match_raw_address": "02415, NULL, New Delhi, Delhi Nct, DL",
+      "match_country": "India",
+      "s1_name_norm": "charming vidyalaya",
+      "match_name_norm": "evoarc",
+      "s1_address_norm": "2415 c2 vasant kunj new delhi delhi",
+      "match_address_norm": "02415 null new delhi delhi nct dl",
+      "s1_name_translit": "charming vidyalaya",
+      "match_name_translit": "evoarc",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    },
+    {
+      "s1_id": "S1-254945720",
+      "match_id": "S3-897962733",
+      "s1_raw_name": "Jay Infra Limited",
+      "s1_raw_address": "Gujarat, Flat No. 401, 2/1956-Ab, Shri Nildar Apart Co-Op H Nr. Kshetrapal Mandir, Kadershah Nal, Surat",
+      "s1_country": "India",
+      "match_raw_name": "જય Infra લિમિટેડ",
+      "match_raw_address": "Flat No. 40, Surat, GJ",
+      "match_country": "India",
+      "s1_name_norm": "jay infra limited",
+      "match_name_norm": "જય infra લિમિટેડ",
+      "s1_address_norm": "gujarat flat no 401 2 1956 ab shri nildar apart co op h nr kshetrapal mandir kadershah nal surat",
+      "match_address_norm": "flat no 40 surat gj",
+      "s1_name_translit": "jay infra limited",
+      "match_name_translit": "jya infra limittedd",
+      "classification_tags": [
+        "other / needs manual review"
+      ]
+    },
+    {
+      "s1_id": "S1-885661473",
+      "match_id": "S2-5437076",
+      "s1_raw_name": "Premier Ventures Private Limited",
+      "s1_raw_address": "R-71, Sec-12, Railway Co, Ghaziabad, Ghaziabad, Uttar Pradesh",
+      "s1_country": "India",
+      "match_raw_name": "प्रीमियर वेंचर्स प्राइवेट लिमिटेड",
+      "match_raw_address": "R-0071, GHAZIABAD, Uttar Pradesh",
+      "match_country": "India",
+      "s1_name_norm": "premier ventures private limited",
+      "match_name_norm": "प्रीमियर वेंचर्स प्राइवेट लिमिटेड",
+      "s1_address_norm": "r 71 sec 12 railway co ghaziabad ghaziabad uttar pradesh",
+      "match_address_norm": "r 0071 ghaziabad uttar pradesh",
+      "s1_name_translit": "premier ventures private limited",
+      "match_name_translit": "priimiyr vencrs praaivett limittedd",
+      "classification_tags": [
+        "DBA/alias (name essentially unrelated)"
+      ]
+    }
+  ]
+}

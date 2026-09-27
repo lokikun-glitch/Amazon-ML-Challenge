@@ -1,0 +1,83 @@
+{
+  "V1_V2_features": {
+    "rows": 300000,
+    "mismatches_28": {
+      "name_exact": 0,
+      "name_nosuffix_exact": 0,
+      "name_token_jaccard": 0,
+      "name_token_overlap_count": 0,
+      "name_token_containment": 0,
+      "name_fuzz_ratio": 0,
+      "name_fuzz_token_sort_ratio": 0,
+      "name_fuzz_token_set_ratio": 0,
+      "name_translit_fuzz_ratio": 0,
+      "name_len_diff": 0,
+      "address_exact": 0,
+      "address_missing_s1": 0,
+      "address_missing_cand": 0,
+      "address_token_jaccard": 0,
+      "address_token_overlap_count": 0,
+      "address_token_containment": 0,
+      "address_numeric_token_overlap": 0,
+      "street_number_equal": 0,
+      "postal_equal": 0,
+      "address_fuzz_ratio": 0,
+      "country_equal": 0,
+      "name_addr_product": 0,
+      "from_b1": 0,
+      "from_b2": 0,
+      "from_b3": 0,
+      "from_b5": 0,
+      "from_b7a": 0,
+      "n_channels_hit": 0
+    },
+    "mismatches_14": {
+      "num_hn_head_equal": 0,
+      "num_hn_full_equal": 0,
+      "num_compound_equal": 0,
+      "num_unit_equal": 0,
+      "num_postal_equal": 0,
+      "num_token_jaccard": 0,
+      "num_token_overlap": 0,
+      "num_hn_head_mismatch": 0,
+      "num_compound_mismatch": 0,
+      "num_unit_mismatch": 0,
+      "num_postal_mismatch": 0,
+      "num_token_contradiction": 0,
+      "num_token_symdiff": 0,
+      "num_strongname_contra": 0
+    },
+    "seconds_28": 4.1,
+    "seconds_14": 1.8,
+    "pass": true
+  },
+  "V3_scores": {
+    "rows": 12053332,
+    "max_abs_diff": 1.7763568394002505e-15,
+    "pairs_differing": 11,
+    "pairs_within_1e-9_of_a_threshold": 0,
+    "criterion": "float summation-order noise only: max diff < 1e-9 and no pair near 8.3 / 3.0",
+    "pass": true
+  },
+  "V4_decision": {
+    "s1_compared": 9956,
+    "s1_with_predictions": 9286,
+    "s1_differing": 2,
+    "differing_all_exact_top_z_ties": true,
+    "examples": [
+      "S1-808032311",
+      "S1-716661774"
+    ],
+    "criterion": "identical except exact top-z ties (production tie-break: smallest entity_id)",
+    "pass": true
+  },
+  "V5_candidates": {
+    "n_s1": 1000,
+    "per_country_vs_global_s1_differing": 0,
+    "stored_dev_identical_s1": 1000,
+    "stored_dev_symdiff_pairs": 0,
+    "global_pairs": 1176079,
+    "pass": true
+  },
+  "all_pass": true
+}

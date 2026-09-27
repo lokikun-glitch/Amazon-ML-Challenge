@@ -1,0 +1,547 @@
+{
+  "config": "D3",
+  "split": {
+    "fit": {
+      "n_s1": 8000,
+      "n_singleton": 439
+    },
+    "tune": {
+      "n_s1": 2000,
+      "n_singleton": 98
+    },
+    "val": {
+      "n_s1": 10000,
+      "n_singleton": 574
+    }
+  },
+  "exploration_training_side": {
+    "means_by_singleton": {
+      "false": {
+        "z1": 14.971,
+        "z2": 11.616,
+        "margin": 3.355,
+        "log_n_cand": 6.488,
+        "top_name_exact": 0.589,
+        "top_addr_miss_cand": 0.009,
+        "top_nch": 2.274,
+        "top_postal": 0.06,
+        "addr_missing_s1": 0.0,
+        "is_india": 0.409,
+        "log_n_ge4": 1.612,
+        "log_n_ge6": 1.448,
+        "log_n_ge8": 1.287,
+        "log_n_ge10": 1.093,
+        "log_n_ge12": 0.854,
+        "top_label": 0.947
+      },
+      "true": {
+        "z1": 7.549,
+        "z2": 3.915,
+        "margin": 3.634,
+        "log_n_cand": 6.454,
+        "top_name_exact": 0.283,
+        "top_addr_miss_cand": 0.074,
+        "top_nch": 1.527,
+        "top_postal": 0.011,
+        "addr_missing_s1": 0.0,
+        "is_india": 0.399,
+        "log_n_ge4": 0.852,
+        "log_n_ge6": 0.594,
+        "log_n_ge8": 0.395,
+        "log_n_ge10": 0.23,
+        "log_n_ge12": 0.087,
+        "top_label": 0.0
+      }
+    },
+    "by_z1_bin": {
+      "(-99, 0]": {
+        "n": 62,
+        "singleton_rate": 0.323,
+        "top_is_true": 0.016
+      },
+      "(0, 4]": {
+        "n": 185,
+        "singleton_rate": 0.405,
+        "top_is_true": 0.141
+      },
+      "(10, 11]": {
+        "n": 526,
+        "singleton_rate": 0.076,
+        "top_is_true": 0.838
+      },
+      "(11, 12]": {
+        "n": 658,
+        "singleton_rate": 0.081,
+        "top_is_true": 0.854
+      },
+      "(12, 14]": {
+        "n": 1589,
+        "singleton_rate": 0.024,
+        "top_is_true": 0.943
+      },
+      "(14, 99]": {
+        "n": 5724,
+        "singleton_rate": 0.004,
+        "top_is_true": 0.989
+      },
+      "(4, 6]": {
+        "n": 199,
+        "singleton_rate": 0.412,
+        "top_is_true": 0.357
+      },
+      "(6, 7]": {
+        "n": 160,
+        "singleton_rate": 0.312,
+        "top_is_true": 0.475
+      },
+      "(7, 8]": {
+        "n": 213,
+        "singleton_rate": 0.272,
+        "top_is_true": 0.554
+      },
+      "(8, 9]": {
+        "n": 279,
+        "singleton_rate": 0.179,
+        "top_is_true": 0.703
+      },
+      "(9, 10]": {
+        "n": 405,
+        "singleton_rate": 0.121,
+        "top_is_true": 0.763
+      }
+    },
+    "by_margin_bin": {
+      "(-1.0, 0.25]": {
+        "n": 942,
+        "singleton_rate": 0.053,
+        "top_is_true": 0.845
+      },
+      "(0.25, 0.5]": {
+        "n": 598,
+        "singleton_rate": 0.069,
+        "top_is_true": 0.861
+      },
+      "(0.5, 1.0]": {
+        "n": 1024,
+        "singleton_rate": 0.04,
+        "top_is_true": 0.886
+      },
+      "(1.0, 2.0]": {
+        "n": 1784,
+        "singleton_rate": 0.047,
+        "top_is_true": 0.896
+      },
+      "(2.0, 3.0]": {
+        "n": 1408,
+        "singleton_rate": 0.046,
+        "top_is_true": 0.912
+      },
+      "(3.0, 5.0]": {
+        "n": 1854,
+        "singleton_rate": 0.051,
+        "top_is_true": 0.907
+      },
+      "(5.0, 99.0]": {
+        "n": 2390,
+        "singleton_rate": 0.067,
+        "top_is_true": 0.91
+      }
+    },
+    "by_addr_missing_s1": {
+      "0.0": {
+        "n": 10000,
+        "singleton_rate": 0.054
+      }
+    },
+    "by_top_name_exact": {
+      "0.0": {
+        "n": 4271,
+        "singleton_rate": 0.09
+      },
+      "1.0": {
+        "n": 5729,
+        "singleton_rate": 0.027
+      }
+    },
+    "by_is_india": {
+      "0.0": {
+        "n": 5920,
+        "singleton_rate": 0.055
+      },
+      "1.0": {
+        "n": 4080,
+        "singleton_rate": 0.052
+      }
+    }
+  },
+  "B3_gate_coefficients": {
+    "z1": -0.064,
+    "z2": -0.104,
+    "margin": 0.069,
+    "log_n_cand": 0.284,
+    "top_name_exact": -0.962,
+    "top_addr_miss_cand": 0.024,
+    "top_nch": 0.784,
+    "top_postal": -0.305,
+    "addr_missing_s1": 0.0,
+    "is_india": -0.312,
+    "log_n_ge4": -0.493,
+    "log_n_ge6": -0.429,
+    "log_n_ge8": -0.368,
+    "log_n_ge10": -0.205,
+    "log_n_ge12": -1.099
+  },
+  "B3_gate_auc": {
+    "fit": 0.931,
+    "tune": 0.9441,
+    "val": 0.9308
+  },
+  "variants": {
+    "A": {
+      "params": {
+        "t": 7.3,
+        "t_prob": 0.9993249172693672
+      },
+      "tune": {
+        "macro_f05": 0.764,
+        "macro_precision": 0.8473,
+        "macro_recall": 0.7545,
+        "n_singleton_total": 98,
+        "singleton_correctly_empty": 43,
+        "singleton_fp_rate_pct": 56.12,
+        "matched_s1_zero_predictions": 85,
+        "avg_pred_per_s1": 3.162,
+        "duplicate_candidate_claims": 0,
+        "n_distinct_predicted_candidates": 6324,
+        "macro_f05_US": 0.7826,
+        "macro_f05_India": 0.7371,
+        "macro_f05_matched_only": 0.7808,
+        "multi_match_s1": 1801,
+        "multi_match_macro_recall": 0.7418,
+        "multi_match_avg_pred": 3.404,
+        "multi_match_s1_with_2plus_pred": 1547
+      },
+      "val": {
+        "macro_f05": 0.7602,
+        "macro_precision": 0.8382,
+        "macro_recall": 0.7628,
+        "n_singleton_total": 574,
+        "singleton_correctly_empty": 264,
+        "singleton_fp_rate_pct": 54.01,
+        "matched_s1_zero_predictions": 416,
+        "avg_pred_per_s1": 3.095,
+        "duplicate_candidate_claims": 5,
+        "n_distinct_predicted_candidates": 30942,
+        "macro_f05_US": 0.7834,
+        "macro_f05_India": 0.7257,
+        "macro_f05_matched_only": 0.7785,
+        "multi_match_s1": 8865,
+        "multi_match_macro_recall": 0.7501,
+        "multi_match_avg_pred": 3.356,
+        "multi_match_s1_with_2plus_pred": 7675
+      }
+    },
+    "B1": {
+      "params": {
+        "t": 7.1,
+        "t_prob": 0.9991755753136017,
+        "t_high": 7.3,
+        "t_high_prob": 0.9993249172693672
+      },
+      "tune": {
+        "macro_f05": 0.764,
+        "macro_precision": 0.8437,
+        "macro_recall": 0.7611,
+        "n_singleton_total": 98,
+        "singleton_correctly_empty": 42,
+        "singleton_fp_rate_pct": 57.14,
+        "matched_s1_zero_predictions": 83,
+        "avg_pred_per_s1": 3.21,
+        "duplicate_candidate_claims": 1,
+        "n_distinct_predicted_candidates": 6419,
+        "macro_f05_US": 0.7826,
+        "macro_f05_India": 0.7371,
+        "macro_f05_matched_only": 0.7813,
+        "multi_match_s1": 1801,
+        "multi_match_macro_recall": 0.7486,
+        "multi_match_avg_pred": 3.455,
+        "multi_match_s1_with_2plus_pred": 1557
+      },
+      "val": {
+        "macro_f05": 0.7596,
+        "macro_precision": 0.8341,
+        "macro_recall": 0.7684,
+        "n_singleton_total": 574,
+        "singleton_correctly_empty": 262,
+        "singleton_fp_rate_pct": 54.36,
+        "matched_s1_zero_predictions": 404,
+        "avg_pred_per_s1": 3.137,
+        "duplicate_candidate_claims": 7,
+        "n_distinct_predicted_candidates": 31366,
+        "macro_f05_US": 0.7828,
+        "macro_f05_India": 0.7252,
+        "macro_f05_matched_only": 0.7781,
+        "multi_match_s1": 8865,
+        "multi_match_macro_recall": 0.7561,
+        "multi_match_avg_pred": 3.402,
+        "multi_match_s1_with_2plus_pred": 7713
+      },
+      "val_delta_vs_A": {
+        "delta": -0.0006,
+        "ci95": [
+          -0.0014,
+          0.0003
+        ],
+        "p_delta_le_0": 0.9
+      }
+    },
+    "B2": {
+      "params": {
+        "t": 7.3,
+        "t_prob": 0.9993249172693672,
+        "t_high": 7.3,
+        "t_high_prob": 0.9993249172693672
+      },
+      "tune": {
+        "macro_f05": 0.764,
+        "macro_precision": 0.8473,
+        "macro_recall": 0.7545,
+        "n_singleton_total": 98,
+        "singleton_correctly_empty": 43,
+        "singleton_fp_rate_pct": 56.12,
+        "matched_s1_zero_predictions": 85,
+        "avg_pred_per_s1": 3.162,
+        "duplicate_candidate_claims": 0,
+        "n_distinct_predicted_candidates": 6324,
+        "macro_f05_US": 0.7826,
+        "macro_f05_India": 0.7371,
+        "macro_f05_matched_only": 0.7808,
+        "multi_match_s1": 1801,
+        "multi_match_macro_recall": 0.7418,
+        "multi_match_avg_pred": 3.404,
+        "multi_match_s1_with_2plus_pred": 1547
+      },
+      "val": {
+        "macro_f05": 0.7602,
+        "macro_precision": 0.8382,
+        "macro_recall": 0.7628,
+        "n_singleton_total": 574,
+        "singleton_correctly_empty": 264,
+        "singleton_fp_rate_pct": 54.01,
+        "matched_s1_zero_predictions": 416,
+        "avg_pred_per_s1": 3.095,
+        "duplicate_candidate_claims": 5,
+        "n_distinct_predicted_candidates": 30942,
+        "macro_f05_US": 0.7834,
+        "macro_f05_India": 0.7257,
+        "macro_f05_matched_only": 0.7785,
+        "multi_match_s1": 8865,
+        "multi_match_macro_recall": 0.7501,
+        "multi_match_avg_pred": 3.356,
+        "multi_match_s1_with_2plus_pred": 7675
+      },
+      "val_delta_vs_A": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "p_delta_le_0": 1.0
+      }
+    },
+    "B3": {
+      "params": {
+        "t": 7.1,
+        "t_prob": 0.9991755753136017,
+        "t_high": 10.4,
+        "t_high_prob": 0.9999695684430994,
+        "s": 0.25
+      },
+      "tune": {
+        "macro_f05": 0.7674,
+        "macro_precision": 0.8564,
+        "macro_recall": 0.7574,
+        "n_singleton_total": 98,
+        "singleton_correctly_empty": 63,
+        "singleton_fp_rate_pct": 35.71,
+        "matched_s1_zero_predictions": 106,
+        "avg_pred_per_s1": 3.194,
+        "duplicate_candidate_claims": 1,
+        "n_distinct_predicted_candidates": 6387,
+        "macro_f05_US": 0.7851,
+        "macro_f05_India": 0.7418,
+        "macro_f05_matched_only": 0.7738,
+        "multi_match_s1": 1801,
+        "multi_match_macro_recall": 0.7467,
+        "multi_match_avg_pred": 3.453,
+        "multi_match_s1_with_2plus_pred": 1558
+      },
+      "val": {
+        "macro_f05": 0.7601,
+        "macro_precision": 0.8454,
+        "macro_recall": 0.763,
+        "n_singleton_total": 574,
+        "singleton_correctly_empty": 350,
+        "singleton_fp_rate_pct": 39.02,
+        "matched_s1_zero_predictions": 531,
+        "avg_pred_per_s1": 3.124,
+        "duplicate_candidate_claims": 7,
+        "n_distinct_predicted_candidates": 31230,
+        "macro_f05_US": 0.7849,
+        "macro_f05_India": 0.7232,
+        "macro_f05_matched_only": 0.7693,
+        "multi_match_s1": 8865,
+        "multi_match_macro_recall": 0.7547,
+        "multi_match_avg_pred": 3.403,
+        "multi_match_s1_with_2plus_pred": 7730
+      },
+      "val_delta_vs_A": {
+        "delta": -0.0001,
+        "ci95": [
+          -0.0028,
+          0.0027
+        ],
+        "p_delta_le_0": 0.529
+      }
+    },
+    "C1": {
+      "params": {
+        "t": 7.3,
+        "t_prob": 0.9993249172693672,
+        "T": 7.3,
+        "T_prob": 0.9993249172693672
+      },
+      "tune": {
+        "macro_f05": 0.764,
+        "macro_precision": 0.8473,
+        "macro_recall": 0.7545,
+        "n_singleton_total": 98,
+        "singleton_correctly_empty": 43,
+        "singleton_fp_rate_pct": 56.12,
+        "matched_s1_zero_predictions": 85,
+        "avg_pred_per_s1": 3.162,
+        "duplicate_candidate_claims": 0,
+        "n_distinct_predicted_candidates": 6324,
+        "macro_f05_US": 0.7826,
+        "macro_f05_India": 0.7371,
+        "macro_f05_matched_only": 0.7808,
+        "multi_match_s1": 1801,
+        "multi_match_macro_recall": 0.7418,
+        "multi_match_avg_pred": 3.404,
+        "multi_match_s1_with_2plus_pred": 1547
+      },
+      "val": {
+        "macro_f05": 0.7602,
+        "macro_precision": 0.8382,
+        "macro_recall": 0.7628,
+        "n_singleton_total": 574,
+        "singleton_correctly_empty": 264,
+        "singleton_fp_rate_pct": 54.01,
+        "matched_s1_zero_predictions": 416,
+        "avg_pred_per_s1": 3.095,
+        "duplicate_candidate_claims": 5,
+        "n_distinct_predicted_candidates": 30942,
+        "macro_f05_US": 0.7834,
+        "macro_f05_India": 0.7257,
+        "macro_f05_matched_only": 0.7785,
+        "multi_match_s1": 8865,
+        "multi_match_macro_recall": 0.7501,
+        "multi_match_avg_pred": 3.356,
+        "multi_match_s1_with_2plus_pred": 7675
+      },
+      "val_delta_vs_A": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "p_delta_le_0": 1.0
+      }
+    },
+    "C2": {
+      "params": {
+        "t": 7.3,
+        "t_prob": 0.9993249172693672,
+        "T": 7.3,
+        "T_prob": 0.9993249172693672,
+        "M": 0.0
+      },
+      "tune": {
+        "macro_f05": 0.764,
+        "macro_precision": 0.8473,
+        "macro_recall": 0.7545,
+        "n_singleton_total": 98,
+        "singleton_correctly_empty": 43,
+        "singleton_fp_rate_pct": 56.12,
+        "matched_s1_zero_predictions": 85,
+        "avg_pred_per_s1": 3.162,
+        "duplicate_candidate_claims": 0,
+        "n_distinct_predicted_candidates": 6324,
+        "macro_f05_US": 0.7826,
+        "macro_f05_India": 0.7371,
+        "macro_f05_matched_only": 0.7808,
+        "multi_match_s1": 1801,
+        "multi_match_macro_recall": 0.7418,
+        "multi_match_avg_pred": 3.404,
+        "multi_match_s1_with_2plus_pred": 1547
+      },
+      "val": {
+        "macro_f05": 0.7602,
+        "macro_precision": 0.8382,
+        "macro_recall": 0.7628,
+        "n_singleton_total": 574,
+        "singleton_correctly_empty": 264,
+        "singleton_fp_rate_pct": 54.01,
+        "matched_s1_zero_predictions": 416,
+        "avg_pred_per_s1": 3.095,
+        "duplicate_candidate_claims": 5,
+        "n_distinct_predicted_candidates": 30942,
+        "macro_f05_US": 0.7834,
+        "macro_f05_India": 0.7257,
+        "macro_f05_matched_only": 0.7785,
+        "multi_match_s1": 8865,
+        "multi_match_macro_recall": 0.7501,
+        "multi_match_avg_pred": 3.356,
+        "multi_match_s1_with_2plus_pred": 7675
+      },
+      "val_delta_vs_A": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "p_delta_le_0": 1.0
+      }
+    }
+  },
+  "reference_prior_val_tuned_threshold": {
+    "note": "threshold previously chosen on this same val sample; NOT a clean validation score",
+    "threshold_prob": 0.9995,
+    "threshold_z": 7.6004,
+    "val": {
+      "macro_f05": 0.761,
+      "macro_precision": 0.8489,
+      "macro_recall": 0.7491,
+      "n_singleton_total": 574,
+      "singleton_correctly_empty": 286,
+      "singleton_fp_rate_pct": 50.17,
+      "matched_s1_zero_predictions": 467,
+      "avg_pred_per_s1": 3.001,
+      "duplicate_candidate_claims": 5,
+      "n_distinct_predicted_candidates": 30007,
+      "macro_f05_US": 0.7845,
+      "macro_f05_India": 0.7261,
+      "macro_f05_matched_only": 0.777,
+      "multi_match_s1": 8865,
+      "multi_match_macro_recall": 0.7355,
+      "multi_match_avg_pred": 3.259,
+      "multi_match_s1_with_2plus_pred": 7545
+    }
+  },
+  "diagnostic_val_optimal_global_threshold": {
+    "note": "val-optimized, optimistic; reported only to size the tuning gap",
+    "t": 7.4,
+    "t_prob": 0.9993891206405656,
+    "macro_f05": 0.7612
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "train_source1": {
+    "rows": 2206821,
+    "seconds": 18.2,
+    "file_mb": 51.2,
+    "coverage_pct": {
+      "India": {
+        "primary_house_number": 70.78,
+        "house_head": 70.78,
+        "house_atoms": 70.78,
+        "compound_number": 20.86,
+        "unit_number": 11.62,
+        "postal_code": 0.17,
+        "number_tokens": 89.63
+      },
+      "US": {
+        "primary_house_number": 99.99,
+        "house_head": 99.99,
+        "house_atoms": 99.99,
+        "compound_number": 0.71,
+        "unit_number": 12.96,
+        "postal_code": 0.0,
+        "number_tokens": 100.0
+      }
+    }
+  },
+  "train_source2": {
+    "rows": 5034616,
+    "seconds": 36.6,
+    "file_mb": 117.4,
+    "coverage_pct": {
+      "India": {
+        "primary_house_number": 71.94,
+        "house_head": 71.94,
+        "house_atoms": 71.94,
+        "compound_number": 20.49,
+        "unit_number": 8.79,
+        "postal_code": 0.32,
+        "number_tokens": 89.9
+      },
+      "US": {
+        "primary_house_number": 89.46,
+        "house_head": 89.46,
+        "house_atoms": 89.46,
+        "compound_number": 5.28,
+        "unit_number": 0.0,
+        "postal_code": 0.0,
+        "number_tokens": 89.72
+      }
+    }
+  },
+  "train_source3": {
+    "rows": 5285603,
+    "seconds": 37.4,
+    "file_mb": 125.0,
+    "coverage_pct": {
+      "India": {
+        "primary_house_number": 69.92,
+        "house_head": 69.92,
+        "house_atoms": 69.92,
+        "compound_number": 20.06,
+        "unit_number": 8.0,
+        "postal_code": 0.3,
+        "number_tokens": 88.44
+      },
+      "US": {
+        "primary_house_number": 89.95,
+        "house_head": 89.95,
+        "house_atoms": 89.95,
+        "compound_number": 5.11,
+        "unit_number": 8.67,
+        "postal_code": 0.0,
+        "number_tokens": 90.9
+      }
+    }
+  },
+  "total_seconds": 92.6,
+  "parent_peak_rss_mb_note": "workers are separate processes; see log for parent RSS"
+}
